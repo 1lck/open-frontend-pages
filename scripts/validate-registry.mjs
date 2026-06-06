@@ -69,6 +69,14 @@ for (const file of files) {
     errors.push(`${file}: imported templates cannot use "${entry.license}"`);
   }
 
+  if (entry.imported && (typeof entry.repoPath !== "string" || entry.repoPath.trim() === "")) {
+    errors.push(`${file}: imported templates must include "repoPath"`);
+  }
+
+  if (!entry.imported && entry.repoPath !== null) {
+    errors.push(`${file}: candidate templates must use null "repoPath"`);
+  }
+
   if (!entry.imported && !allowedImportLicenses.has(entry.license)) {
     warnings.push(`${file}: "${entry.license}" is registry-only unless reviewed separately`);
   }

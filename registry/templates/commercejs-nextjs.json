@@ -4,6 +4,7 @@
   "category": "ecommerce",
   "audience": "b2c",
   "source": "https://github.com/chec/commercejs-nextjs-demo-store",
+  "repoPath": null,
   "license": "MIT",
   "imported": false,
   "tech": ["nextjs", "react"],

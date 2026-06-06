@@ -6,6 +6,8 @@ const audienceLabels = {
   both: "B2B + B2C"
 };
 
+const repositoryBaseUrl = "https://github.com/1lck/open-frontend-pages/tree/main";
+
 export default function Home() {
   const templates = getTemplates();
   const stats = getRegistryStats(templates);
@@ -92,13 +94,23 @@ export default function Home() {
                       Preview
                     </a>
                   ) : null}
+                  {template.repoPath ? (
+                    <a
+                      className="inline-flex border border-[var(--line)] px-3 py-2 text-sm font-medium"
+                      href={`${repositoryBaseUrl}/${template.repoPath}`}
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      Code
+                    </a>
+                  ) : null}
                   <a
                     className="inline-flex border border-[var(--line)] px-3 py-2 text-sm font-medium"
                     href={template.source}
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Source
+                    Upstream
                   </a>
                 </div>
               </div>

@@ -4,6 +4,7 @@
   "category": "dashboard",
   "audience": "b2b",
   "source": "https://github.com/TailAdmin/free-nextjs-admin-dashboard",
+  "repoPath": "templates/tailadmin-nextjs-dashboard/src",
   "license": "MIT",
   "imported": true,
   "tech": ["nextjs", "react", "tailwind"],

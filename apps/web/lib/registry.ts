@@ -9,6 +9,7 @@ export type TemplateEntry = {
   category: string;
   audience: TemplateAudience;
   source: string;
+  repoPath: string | null;
   license: string;
   imported: boolean;
   tech: string[];
