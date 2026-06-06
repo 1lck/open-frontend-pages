@@ -1,0 +1,15 @@
+{
+  "name": "Startup Next.js Template",
+  "slug": "startup-nextjs",
+  "category": "landing",
+  "audience": "b2c",
+  "source": "https://github.com/NextJSTemplates/startup-nextjs",
+  "repoPath": "templates/startup-nextjs/src",
+  "download": "/downloads/startup-nextjs.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["nextjs", "react", "tailwind"],
+  "tags": ["saas", "landing", "pricing", "blog"],
+  "preview": "https://startup.demo.nextjstemplates.com",
+  "screenshot": "/screenshots/startup-nextjs.png"
+}
