@@ -57,12 +57,12 @@ export default function Home() {
               className="overflow-hidden border border-[var(--line)] bg-[var(--panel)]"
               key={template.slug}
             >
-              <div className="aspect-[16/10] border-b border-[var(--line)] bg-[#e8e3d8]">
+              <div className="aspect-[2/1] border-b border-[var(--line)] bg-[#e8e3d8]">
                 {template.screenshot ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
                     alt={`${template.name} preview`}
-                    className="h-full w-full object-cover object-top"
+                    className="h-full w-full object-contain object-top"
                     src={template.screenshot}
                   />
                 ) : (
