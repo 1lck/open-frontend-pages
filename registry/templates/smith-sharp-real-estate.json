@@ -1,0 +1,15 @@
+{
+  "name": "Smith-Sharp Real Estate",
+  "slug": "smith-sharp-real-estate",
+  "category": "real-estate",
+  "audience": "b2c",
+  "source": "https://github.com/Cristiano-Valder/Real-Estate-Website-Template",
+  "repoPath": "templates/smith-sharp-real-estate/src",
+  "download": "/downloads/smith-sharp-real-estate.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["html", "css"],
+  "tags": ["real-estate", "property-listings", "agent", "contact-form"],
+  "preview": "https://github.com/Cristiano-Valder/Real-Estate-Website-Template",
+  "screenshot": "/screenshots/smith-sharp-real-estate.png"
+}

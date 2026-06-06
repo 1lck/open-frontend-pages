@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<link rel="stylesheet" href="individual_project.css">
+	<link rel="icon" href="favicon.png" type="image/x-icon">
+	<title>Smith-Sharp Real Estate</title>
+	<meta charset="utf-8">
+
+</head>
+
+<div id="wrapper">
+
+<header>
+
+	<a href="home.html" class="logo-link">
+		<img src="main_logo.png" alt="Smith-Sharp Logo" class="logo">
+	</a>
+
+	<h1 class="header-title">Questions and Enquiries</h1>
+
+</header>
+
+<nav>
+	
+	<a href="home.html">&nbspHome&nbsp</a>
+	<a href="listings.html">&nbspListings&nbsp</a>
+	<a href="contact.html">&nbspContact&nbsp</a>
+
+</nav>
+
+<body>
+
+	<div id="form-body">
+		<div id="form-img">
+			<img src="form_image.png" alt="Toronto Skyline" class="form-pic">
+		</div>
+
+		<div id="form-fields">
+			<h2>Contact Us!</h2>
+			<p>Please fill up the form and we will contact you shortly.</p>
+
+			<form>
+
+				<fieldset><legend>Personal Details</legend><br>
+
+				<label for="firstName" class="bold-label"><span style="color:red;">*</span>First Name:</label>
+					<input type="text" id="firstName" name="firstName" size="35px" required><br><br>
+
+				<label for="lastName" class="bold-label"><span style="color:red;">*</span>Last Name:</label>
+					<input type="text" id="lastName" name="lastName" size="35px" required><br><br>
+
+				<label for="phone" class="bold-label" style="margin-left: 0px";><span style="color:red;">*</span>Phone:</label>
+					<input type="tel" id="phone" name="phone" maxlength="14" minlength="10" style="text-align:center placeholder="Enter area code and phone number";" required><br><br>
+				
+				<label for="email" class="bold-label"><span style="color:red;">*</span>Email:</label>
+					<input type="email" id="email" name="email" size="35px" maxlength="60" required><br><br>
+
+				
+			</fieldset><br>
+
+
+			<fieldset><legend>Property Details</legend><br>
+
+				<label for="type_property" class="bold-label">Type of Property:</label>
+
+					<input type="checkbox" id="house" name="type_property" value="House">
+						<label for="house">House</label>
+
+					<input type="checkbox" id="apartment" name="type_property" value="Apartment">
+						<label for="apartment">Apartment</label>
+
+					<input type="checkbox" id="town_house" name="type_property" value="Town House">
+						<label for="town_house">Town House</label>
+
+					<input type="checkbox" id="business" name="type_property" value="Business">
+						<label for="business">Business and Retail</label>
+
+					<input type="checkbox" id="office" name="type_property" value="Office">
+						<label for="office">Office</label><br><br>		
+
+				<label for="number_rooms" class="bold-label">Number of Rooms:</label>
+					<input type="number" id="number_rooms" name="number_rooms" value="1" min="1" max="10"><br><br>
+
+				<label for="number_bathrooms" class="bold-label">Number of Bathrooms:</label>
+					<input type="number" id="number_bathrooms" name="number_bathrooms" value="1" min="1" max="10"><br><br>
+			
+				<label for="price_range" class="bold-label">Price Range:</label>
+					<label for ="min_price">min:</label>
+					<select id="min_price" name="price_range" >
+						<option value="299,000">$299k</option>
+						<option value="400,000">$400k</option>
+						<option value="500,000">$500k</option>
+						<option value="600,000">$600k</option>
+						<option value="700,000">$700k</option>
+						<option value="800,000">$800k</option>
+						<option value="900,000">$900k</option>
+						<option value="1,000,000">$1.0M</option>
+						<option value="1,500,000">$1.5M</option>
+						<option value="2,000,000">$2.0M</option>
+						<option value="2,500,000">$2.5M</option>
+						<option value="3,000,000">$3.0M</option>
+					</select>
+
+					<label for ="max_price">max:</label>
+					<select id="max_price" name="price_range">
+						<option value="300,000">$300k</option>
+						<option value="400,000">$400k</option>
+						<option value="500,000">$500k</option>
+						<option value="600,000">$600k</option>
+						<option value="700,000">$700k</option>
+						<option value="800,000">$800k</option>
+						<option value="900,000">$900k</option>
+						<option value="1,000,000">$1.0M</option>
+						<option value="1,500,000">$1.5M</option>
+						<option value="2,000,000">$2.0M</option>
+						<option value="2,500,000">$2.5M</option>
+						<option value="3,000,000">$3.0M</option>
+						<option value="3,000,001">More than $3.0M</option>
+					</select>
+				</fieldset><br>
+
+				<fieldset><legend>Comments</legend>
+
+					<Label for="comments" class="bold-label">Any additional information?</label><br>
+						<textarea id="comments" name="comments" cols="50" rows="3"></textarea><br>
+				</fieldset> <br>
+
+					<input type="button" value="Send Form">
+  					<input type="reset" value="Clear Form" onclick="return confirmReset();">
+  
+ 						<script>
+    							function confirmReset() {
+      						return confirm('Are you sure you want to clear the form?');
+    							}
+  						</script>
+
+		</div>
+
+	</div>
+
+</body>
+
+<footer>
+	
+	<h3>Contact</h3>
+
+	<a href="mailto:example@gmail.com" class="link">
+		<img src="email.png" alt="Send us an email" class="icon">
+	</a>
+
+	<a href="tel:+15555555555" class="link">
+		<img src="phone.png" alt="Give us a call" class="icon">
+	</a><br><br>
+
+	<a href="site_map.html">Site Map</a><br>
+
+	<p>Copyright&copy This is a free-to-use template website - Git-Hub: Cristiano-Valder</p>
+
+
+
+
+</footer>	
+
+</div>
