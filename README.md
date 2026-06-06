@@ -60,6 +60,7 @@ Create a JSON file in `registry/templates/`:
   "audience": "b2b",
   "source": "https://github.com/example/project",
   "repoPath": null,
+  "download": null,
   "license": "MIT",
   "imported": false,
   "tech": ["react", "tailwind"],

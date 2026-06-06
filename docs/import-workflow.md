@@ -64,17 +64,36 @@ Set the registry entry to:
 
 ```json
 {
-  "imported": true
+  "imported": true,
+  "repoPath": "templates/<slug>/src",
+  "download": "/downloads/<slug>.zip"
 }
 ```
 
 Keep the source URL and license value aligned with upstream.
+
+## Generate a download package
+
+Run:
+
+```bash
+npm run package:template -- <slug>
+```
+
+This creates:
+
+```txt
+apps/web/public/downloads/<slug>.zip
+```
+
+The zip should contain only that template directory, not the full repository.
 
 ## Validate before committing
 
 Run:
 
 ```bash
+npm run package:template -- <slug>
 npm run validate:template -- <slug>
 npm run validate:registry
 npm run lint

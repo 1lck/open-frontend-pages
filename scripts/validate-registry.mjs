@@ -3,6 +3,7 @@ import path from "node:path";
 import process from "node:process";
 
 const registryDir = path.join(process.cwd(), "registry", "templates");
+const publicDir = path.join(process.cwd(), "apps", "web", "public");
 const allowedImportLicenses = new Set([
   "MIT",
   "Apache-2.0",
@@ -73,8 +74,20 @@ for (const file of files) {
     errors.push(`${file}: imported templates must include "repoPath"`);
   }
 
+  if (entry.imported && (typeof entry.download !== "string" || entry.download.trim() === "")) {
+    errors.push(`${file}: imported templates must include "download"`);
+  }
+
+  if (entry.download && !fs.existsSync(path.join(publicDir, entry.download))) {
+    errors.push(`${file}: download file does not exist at apps/web/public${entry.download}`);
+  }
+
   if (!entry.imported && entry.repoPath !== null) {
     errors.push(`${file}: candidate templates must use null "repoPath"`);
+  }
+
+  if (!entry.imported && entry.download !== null) {
+    errors.push(`${file}: candidate templates must use null "download"`);
   }
 
   if (!entry.imported && !allowedImportLicenses.has(entry.license)) {

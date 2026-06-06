@@ -10,6 +10,7 @@ export type TemplateEntry = {
   audience: TemplateAudience;
   source: string;
   repoPath: string | null;
+  download: string | null;
   license: string;
   imported: boolean;
   tech: string[];

@@ -5,6 +5,7 @@
   "audience": "b2b",
   "source": "https://github.com/themesberg/flowbite-react-admin-dashboard",
   "repoPath": null,
+  "download": null,
   "license": "MIT",
   "imported": false,
   "tech": ["react", "tailwind", "flowbite"],

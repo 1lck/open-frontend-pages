@@ -5,6 +5,7 @@
   "audience": "b2c",
   "source": "https://github.com/chec/commercejs-nextjs-demo-store",
   "repoPath": null,
+  "download": null,
   "license": "MIT",
   "imported": false,
   "tech": ["nextjs", "react"],

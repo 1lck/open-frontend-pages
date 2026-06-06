@@ -5,6 +5,7 @@
   "audience": "b2c",
   "source": "https://github.com/cruip/open-react-template",
   "repoPath": null,
+  "download": null,
   "license": "GPL-3.0",
   "imported": false,
   "tech": ["react", "tailwind"],
