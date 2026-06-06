@@ -1,0 +1,7 @@
+{
+  "name": "bootstrap-5-login-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Bootstrap 5 authentication page templates imported for frontend remixing.",
+  "license": "MIT"
+}

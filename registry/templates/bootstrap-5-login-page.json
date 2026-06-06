@@ -1,0 +1,15 @@
+{
+  "name": "Bootstrap 5 Login Page",
+  "slug": "bootstrap-5-login-page",
+  "category": "auth",
+  "audience": "both",
+  "source": "https://github.com/nauvalazhar/bootstrap-5-login-page",
+  "repoPath": "templates/bootstrap-5-login-page/src",
+  "download": "/downloads/bootstrap-5-login-page.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["html", "bootstrap", "javascript"],
+  "tags": ["auth", "login", "register", "password-reset"],
+  "preview": "https://nauvalazhar.github.io/bootstrap-5-login-page/index.html",
+  "screenshot": "/screenshots/bootstrap-5-login-page.png"
+}
