@@ -1,0 +1,15 @@
+{
+  "name": "React Portfolio Template",
+  "slug": "react-portfolio-template",
+  "category": "portfolio",
+  "audience": "b2c",
+  "source": "https://github.com/yujisatojr/react-portfolio-template",
+  "repoPath": "templates/react-portfolio-template/src",
+  "download": "/downloads/react-portfolio-template.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["react", "typescript", "sass", "material-ui"],
+  "tags": ["portfolio", "personal", "timeline", "responsive"],
+  "preview": "https://yujisatojr.github.io/react-portfolio-template/",
+  "screenshot": "/screenshots/react-portfolio-template.png"
+}
