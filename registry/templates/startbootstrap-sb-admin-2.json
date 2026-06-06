@@ -1,0 +1,15 @@
+{
+  "name": "SB Admin 2",
+  "slug": "startbootstrap-sb-admin-2",
+  "category": "dashboard",
+  "audience": "b2b",
+  "source": "https://github.com/StartBootstrap/startbootstrap-sb-admin-2",
+  "repoPath": "templates/startbootstrap-sb-admin-2/src",
+  "download": "/downloads/startbootstrap-sb-admin-2.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["html", "bootstrap", "sass", "jquery"],
+  "tags": ["admin", "dashboard", "charts", "tables"],
+  "preview": "https://startbootstrap.github.io/startbootstrap-sb-admin-2/",
+  "screenshot": "/screenshots/startbootstrap-sb-admin-2.png"
+}
