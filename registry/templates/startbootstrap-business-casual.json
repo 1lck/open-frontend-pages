@@ -1,0 +1,15 @@
+{
+  "name": "Business Casual",
+  "slug": "startbootstrap-business-casual",
+  "category": "restaurant",
+  "audience": "b2c",
+  "source": "https://github.com/StartBootstrap/startbootstrap-business-casual",
+  "repoPath": "templates/startbootstrap-business-casual/src",
+  "download": "/downloads/startbootstrap-business-casual.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["html", "bootstrap", "sass", "pug"],
+  "tags": ["restaurant", "cafe", "local-business", "retail"],
+  "preview": "https://startbootstrap.github.io/startbootstrap-business-casual/",
+  "screenshot": "/screenshots/startbootstrap-business-casual.png"
+}
