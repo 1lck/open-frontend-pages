@@ -1,0 +1,15 @@
+{
+  "name": "Job Search Portal",
+  "slug": "job-search-portal",
+  "category": "jobs",
+  "audience": "b2c",
+  "source": "https://github.com/Sensei079/Job-Search-Portal",
+  "repoPath": "templates/job-search-portal/src",
+  "download": "/downloads/job-search-portal.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["html", "css", "javascript", "jquery"],
+  "tags": ["jobs", "recruiting", "career", "search"],
+  "preview": null,
+  "screenshot": "/screenshots/job-search-portal.png"
+}

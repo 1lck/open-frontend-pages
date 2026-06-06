@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Recruitment Site</title>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/0642933c3c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class="navbar">
+            <h2 class="navbar-logo"><a href="#">JOB SEARCHER</a></h2>
+            <div class="navbar-menu">
+                <a href="#jobs">Jobs</a>
+                <a href="#jobs">Companies</a>
+                <a href="#testimoni">Reviews</a>
+                <a href="#jobs">Sign In</a>
+            </div>
+            <div class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <!--header-->
+        <header>
+            <h1 class="header-title">
+                FIND YOUR <br> <span>PERFECT JOB</span> <br> EASILY
+            </h1>
+        </header>
+        <!--search-->
+        <div class="search-bar">
+            <div class="search-box">
+                <div class="search-card">
+                    <input class="search-input" type="text" placeholder="Job title or keywords">
+                    <button class="search">Search</button>
+                </div>
+            </div>
+        </div>
+        <!--filter box-->
+        <div class="filter-box">
+            <div class="filter-dropdown">
+                <select class="filter-select" id="jobs-in-demand" name="jobs-in-demand">
+                    <option>Jobs in demand</option>
+                    <option>Fresher jobs</option>
+                    <option>MNC jobs</option>
+                    <option>Remote jobs</option>
+                    <option>Walk in jobs</option>
+                </select>
+                <select class="filter-select" id="job-categories" name="job-categories">
+                    <option>Job categories</option>
+                    <option>Product Manager jobs</option>
+                    <option>Software Engineer jobs</option>
+                    <option>Data Science jobs</option>
+                    <option>Marketing jobs</option>
+                </select>
+                <select class="filter-select" id="company-categories" name="company-categories">
+                    <option>Company categories</option>
+                    <option>Unicorn</option>
+                    <option>MNC</option>
+                    <option>Startups</option>
+                    <option>Product based</option>
+                </select>
+                <select class="filter-select" id="experience" name="experience">
+                    <option>Experience</option>
+                    <option>Fresher</option>
+                    <option>1 year</option>
+                    <option>2 year</option>
+                    <option>3 year</option>
+                </select>
+                <select class="filter-select" id="location" name="location">
+                    <option>Location</option>
+                    <option>New Delhi</option>
+                    <option>Mumbai</option>
+                    <option>Bangalore</option>
+                    <option>Hyderabad</option>
+                </select>
+            </div>
+            <div class="filter-chosen">
+                <div class="chosen-card">
+                    Fresher jobs <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+                <div class="chosen-card">
+                    Software Engineer jobs <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+                <div class="chosen-card">
+                    Startups <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+                <div class="chosen-card">
+                    Fresher <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+                <div class="chosen-card">
+                    New Delhi <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+            </div>
+        </div>
+        <!--job-listing-->
+        <section class="job-list" id="jobs">
+            <div class="job-card">
+                <div class="job-name">
+                    <img class="job-profile" src="./images/download copy 3.png">
+                    <div class="job-details">
+                        <h4>Google</h4>
+                        <h3>Full Stack Developer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="job-label">
+                    <a class="label-a" href="#">HTML</a>
+                    <a class="label-b" href="#">CSS</a>
+                    <a class="label-c" href="#">JAVASCRIPT</a>
+                </div>
+                <div class="job-posted">
+                    posted 2 hours ago
+                </div>
+            </div>
+            <div class="job-card">
+                <div class="job-name">
+                    <img class="job-profile" src="./images/download.png">
+                    <div class="job-details">
+                        <h4>Tesla</h4>
+                        <h3>Frontend Developer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="job-label">
+                    <a class="label-a" href="#">HTML</a>
+                    <a class="label-b" href="#">CSS</a>
+                    <a class="label-c" href="#">JAVASCRIPT</a>
+                </div>
+                <div class="job-posted">
+                    posted 2 hours ago
+                </div>
+            </div>
+            <div class="job-card">
+                <div class="job-name">
+                    <img class="job-profile" src="./images/download copy.png">
+                    <div class="job-details">
+                        <h4>Youtube</h4>
+                        <h3>Backend Developer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="job-label">
+                    <a class="label-a" href="#">NODE JS</a>
+                    <a class="label-b" href="#">EJS</a>
+                    <a class="label-c" href="#">MONGO DB</a>
+                </div>
+                <div class="job-posted">
+                    posted 3 hours ago
+                </div>
+            </div>
+            <div class="job-card">
+                <div class="job-name">
+                    <img class="job-profile" src="./images/download copy 2.png">
+                    <div class="job-details">
+                        <h4>Amazon</h4>
+                        <h3>Frontend Developer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="job-label">
+                    <a class="label-a" href="#">HTML</a>
+                    <a class="label-b" href="#">CSS</a>
+                    <a class="label-c" href="#">JAVASCRIPT</a>
+                </div>
+                <div class="job-posted">
+                    posted 2 hours ago
+                </div>
+            </div>
+            <button class="job-more">More List</button>
+        </section>
+        <!--join-->
+        <section class="join">
+            <div class="join-detail">
+                <h1 class="title">LETS START YOUR NEW JOB WITH US</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <button class="join-button">Join Now</button>
+        </section>
+        <!--testimoni-->
+        <section class="testimoni" id="testimoni">
+            <h1 class="section-title">TESTIMONIAL</h1>
+            <p>What our clients say about us</p>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <i class="fas fa-quote-left"></i>
+                        <h3>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+                             <div class="testimonial-pic">
+                                <img src="./images/profile.jpg">
+                                <p>John Smith</p>
+                                <span>Frontend Developer</span>
+                             </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fas fa-quote-left"></i>
+                        <h3>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+                             <div class="testimonial-pic">
+                                <img src="./images/profile.jpg">
+                                <p>Maya</p>
+                                <span>Fullstack Developer</span>
+                             </div>
+                </div>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <h3>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+                         <div class="testimonial-pic">
+                            <img src="./images/profile.jpg">
+                            <p>Peter Griffin</p>
+                            <span>Backend Developer</span>
+                         </div>
+            </div>
+            <div class="swiper-slide">
+                <i class="fas fa-quote-left"></i>
+                <h3>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+                     <div class="testimonial-pic">
+                        <img src="./images/profile.jpg">
+                        <p>William John</p>
+                        <span>Data Analyst</span>
+                     </div>
+            </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!--footer-->
+        <footer>
+            <div class="footer-wrapper">
+                 <h3>JOB SEARCHER</h3>
+                 <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="social-media">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <div class="footer-wrapper">
+                        <h4>Explore</h4>
+                        <a href="#">Top Companies</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Careers</a>
+                    </div>
+                    <div class="footer-wrapper">
+                        <h4>About</h4>
+                        <a href="#">FAQ</a>
+                        <a href="#">Get Inspired</a>
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="footer-wrapper">
+                        <h4>Support</h4>
+                        <a href="#">Customer Service</a>
+                        <a href="#">Trust and Safety</a>
+                        <a href="#">Partnership</a>
+                    </div>
+                    <div class="footer-wrapper">
+                        <h4>Community</h4>
+                        <a href="#">Community</a>
+                        <a href="#">Invite a Friend</a>
+                        <a href="#">Event</a>
+                    </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
