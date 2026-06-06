@@ -5,7 +5,7 @@
   "audience": "b2b",
   "source": "https://github.com/TailAdmin/free-nextjs-admin-dashboard",
   "license": "MIT",
-  "imported": false,
+  "imported": true,
   "tech": ["nextjs", "react", "tailwind"],
   "tags": ["admin", "dashboard", "analytics", "settings"],
   "preview": null,
