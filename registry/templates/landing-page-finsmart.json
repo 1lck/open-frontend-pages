@@ -1,0 +1,15 @@
+{
+  "name": "FinSmart Landing Page",
+  "slug": "landing-page-finsmart",
+  "category": "finance",
+  "audience": "b2c",
+  "source": "https://github.com/deverlyn/landing-page-finsmart",
+  "repoPath": "templates/landing-page-finsmart/src",
+  "download": "/downloads/landing-page-finsmart.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["html", "bootstrap", "css"],
+  "tags": ["fintech", "mobile-app", "personal-finance", "landing-page"],
+  "preview": null,
+  "screenshot": "/screenshots/landing-page-finsmart.png"
+}

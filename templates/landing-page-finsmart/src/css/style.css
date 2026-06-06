@@ -1,0 +1,170 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .navbar {
+    background-color: #303596 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .nav-link {
+    color: #ffd400;
+  }
+  
+  .hero {
+    background-color: #ffffff;
+  }
+  
+  .subtitulo {
+    font-size: 1.25rem;
+    color: #787ff6;
+    border-bottom: 2px solid #787ff6;
+    display: inline-block;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    letter-spacing: 2px;
+  }
+  
+  .lista-beneficios li {
+    list-style: none;
+    margin-bottom: 1rem;
+    color: #716aca;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  .img-prototipo {
+    width: 160px;
+  }
+  
+  .bg-info {
+    background-color: #787ff6 !important;
+  }
+  
+  .img-linguagens {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .sobre-lista li {
+    color: #fff;
+    font-size: 0.9rem;
+    margin-bottom: 0.7rem;
+    list-style: none;
+    text-transform: uppercase;
+  }
+  
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .bio {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    text-align: justify;
+  }
+  
+  .text-logo {
+    color: #ffd400;
+    font-size: 100px;
+  }
+  
+  .text-warning {
+    color: #ffd400 !important;
+    font-size: 40px;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .bg-primary {
+    background-color: #787ff6 !important;
+  }
+  
+  .bg-primary .text-center {
+    color: #ffd400;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bottom {
+    margin-top: 5rem !important;
+    text-align: right;
+  }
+  
+  .bottom a {
+    color: #303596;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      background-color: #787ff6;
+      padding: 1rem;
+    }
+  
+    .hero {
+      text-align: center;
+    }
+  
+    .image-gone {
+      display: none;
+    }
+  
+    .text-logo {
+      font-size: 48px;
+    }
+  
+    .subtitulo {
+      text-align: center;
+      margin-left: 0;
+    }
+  
+    .bio {
+      font-size: 0.8rem;
+      padding: 0 1rem;
+    }
+  
+    .sobre-lista li,
+    .lista-beneficios li {
+      font-size: 0.85rem;
+      padding: 0 1rem;
+    }
+  
+    .bottom {
+      text-align: center;
+    }
+  
+    .img-linguagens {
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
