@@ -4,12 +4,12 @@
   "category": "admin",
   "audience": "b2b",
   "source": "https://github.com/coreui/coreui-free-react-admin-template",
-  "repoPath": null,
-  "download": null,
+  "repoPath": "templates/coreui-react-admin/src",
+  "download": "/downloads/coreui-react-admin.zip",
   "license": "MIT",
-  "imported": false,
+  "imported": true,
   "tech": ["react", "bootstrap"],
   "tags": ["admin", "dashboard", "tables", "forms"],
-  "preview": null,
-  "screenshot": null
+  "preview": "https://coreui.io/product/free-react-admin-template/",
+  "screenshot": "/screenshots/coreui-react-admin.png"
 }
