@@ -1,0 +1,15 @@
+{
+  "name": "Shadcn Landing Page Template",
+  "slug": "shadcn-landing-page",
+  "category": "landing",
+  "audience": "b2c",
+  "source": "https://github.com/leoMirandaa/shadcn-landing-page",
+  "repoPath": "templates/shadcn-landing-page/src",
+  "download": "/downloads/shadcn-landing-page.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["react", "typescript", "tailwind", "shadcn"],
+  "tags": ["landing", "saas", "startup", "responsive"],
+  "preview": "https://shadcn-landing-page.vercel.app",
+  "screenshot": "/screenshots/shadcn-landing-page.png"
+}
