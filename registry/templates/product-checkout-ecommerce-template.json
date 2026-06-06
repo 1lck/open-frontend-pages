@@ -1,0 +1,15 @@
+{
+  "name": "Product & Checkout E-Commerce Template",
+  "slug": "product-checkout-ecommerce-template",
+  "category": "ecommerce",
+  "audience": "b2c",
+  "source": "https://github.com/fatmakiraz/product-checkout-e-commerce-template",
+  "repoPath": "templates/product-checkout-ecommerce-template/src",
+  "download": "/downloads/product-checkout-ecommerce-template.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["html", "scss", "liquid", "javascript"],
+  "tags": ["product-detail", "checkout", "cart", "payment-ui"],
+  "preview": "https://product-checkout-e-commerce-template-hey-fk.vercel.app/",
+  "screenshot": "/screenshots/product-checkout-ecommerce-template.png"
+}
