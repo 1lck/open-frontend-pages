@@ -1,0 +1,15 @@
+{
+  "name": "Agency",
+  "slug": "startbootstrap-agency",
+  "category": "agency",
+  "audience": "b2c",
+  "source": "https://github.com/StartBootstrap/startbootstrap-agency",
+  "repoPath": "templates/startbootstrap-agency/src",
+  "download": "/downloads/startbootstrap-agency.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["html", "bootstrap", "sass", "pug"],
+  "tags": ["agency", "marketing", "services", "portfolio"],
+  "preview": "https://startbootstrap.github.io/startbootstrap-agency/",
+  "screenshot": "/screenshots/startbootstrap-agency.png"
+}
