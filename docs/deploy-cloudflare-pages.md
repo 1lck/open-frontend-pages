@@ -34,6 +34,14 @@ npx wrangler@4.98.0 whoami
 
 ## Deploy
 
+Create the Pages project once:
+
+```bash
+npm run cf:project:create
+```
+
+If the project already exists, skip this step.
+
 Run:
 
 ```bash
@@ -46,4 +54,4 @@ This deploys `apps/web/out` to the Cloudflare Pages project named `open-frontend
 
 - The app uses `output: "export"` in `apps/web/next.config.ts`.
 - The deploy command does not need a server runtime.
-- If the Pages project does not already exist, Wrangler can create it during deployment after Cloudflare authentication succeeds.
+- The project URL is `https://open-frontend-pages.pages.dev/`.

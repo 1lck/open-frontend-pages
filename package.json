@@ -8,6 +8,7 @@
     "dev": "next dev apps/web",
     "build": "next build apps/web",
     "start": "next start apps/web",
+    "cf:project:create": "npx wrangler@4.98.0 pages project create open-frontend-pages --production-branch main",
     "deploy:cf": "npm run build && npx wrangler@4.98.0 pages deploy apps/web/out --project-name open-frontend-pages --branch main",
     "lint": "npm run typecheck",
     "typecheck": "tsc -p apps/web/tsconfig.json --noEmit",
