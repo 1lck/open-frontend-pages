@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codakt</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/aos.css" />
+</head>
+
+<body>
+  <div class="body-content" data-aos="fade-up">
+    <section class="active">
+      <header>
+        <h2 class="h2 section-title">Code Editor</h2>
+      </header>
+      <div class="container">
+        <textarea id="html-input" placeholder="Enter HTML template..."></textarea>
+        <textarea id="css-input" placeholder="Enter CSS styles..."></textarea>
+        <textarea id="js-input" placeholder="Enter JavaScript code..."></textarea>
+        <button class="btn" onclick="compileTemplate()">Compile</button>
+      </div>
+      <div id="output"></div>
+    </section>
+  </div>
+
+  <!--
+  - js link
+  -->
+  <script src="./assets/js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="./assets/js/script.js"></script>
+</body>
+<!-- * copyright 2024 3A -->
+</html>

@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codakt</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/svg+xml">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./assets/css/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="./assets/images/ban-banner.png">
+</head>
+
+<body>
+
+    <!-- 
+    - #HEADER
+    -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.png" width="185" height="31" alt="Cryptoza home">
+            </a>
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.png" width="185" height="31" alt="Cryptoza home">
+                    </a>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#home" class="navbar-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#materials" class="navbar-link">Materials</a>
+                    </li>
+                    <li>
+                        <a href="#teacher" class="navbar-link">Teacher</a>
+                    </li>
+                    <li>
+                        <a href="#editor_tag" class="navbar-link">Editor</a>
+                    </li>
+                    <li>
+                        <a href="#contac_tag" class="navbar-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="btn-group">
+                <a href="#" class="btn_withS ghost-btn">Sign In</a>
+                <a href="#materials" class="btn btn-primary">Get Courses</a>
+            </div>
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <div class="overlay" data-overlay data-nav-toggler></div>
+        </div>
+    </header>
+
+    <!-- 
+    - #BAN
+    -->
+    <section class="ban" aria-label="home" id="home">
+        <div class="container">
+            <div class="ban-content">
+                <h1 class="h1 ban-title" data-aos="fade-up">Grow Your Skills to Advance Your Career Path</h1>
+                <p class="ban-text" data-aos="fade-up">
+                    Get industry accredited certification and advance through our high-quality online courses
+                </p>
+                <div class="btn-group" data-aos="fade-right">
+                    <a href="#materials" class="btn btn-primary">Get Courses</a>
+                </div>
+            </div>
+            <div class="ban-banner">
+                <figure class="ban-banner" data-aos="fade-left">
+                    <img src="./assets/images/ban-banner.png" width="799" height="823" alt="ban banner" class="w-100">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 
+    - #MATERIALS
+    -->
+    <section id="materials" class="section materials" aria-label="materials">
+        <div class="container">
+            <h2 class="h2 section-title text-center" data-aos="fade-up">Our Most Popular Materials</h2>
+            <p class="section-text text-center" data-aos="fade-up">
+                Below are the most popular items requested on our website, you can take a look at them
+            </p>
+            <ul class="grid-list">
+                <li data-aos="fade-right">
+                    <div class="materials-card bg-gray">
+                        <div class="card-icon">
+                            <ion-icon name="logo-html5" aria-hidden="true"
+                                style="font-size: 3rem; color: white;"></ion-icon>
+                        </div>
+                        <h3 class="h3 card-title">HyperText Markup ( HTML )</h3>
+                        <p class="card-text">
+                            HyperText Markup Language or HTML is the standard markup language for documents designed to be
+                            displayed in a web browser.
+                            It defines the content and structure of web content.
+                        </p>
+                        <a href="#" class="btn-link">
+                            <span class="span">Explore More</span>
+    
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+                </li>
+                <li data-aos="fade-up">
+                    <div class="materials-card bg-gray">
+                        <div class="card-icon">
+                            <ion-icon name="logo-css3" aria-hidden="true" style="font-size: 3rem; color: white;"></ion-icon>
+                        </div>
+                        <h3 class="h3 card-title">CascadingStyleSheets ( CSS )</h3>
+                        <p class="card-text">
+                            Cascading Style Sheets is a style sheet language used for specifying the presentation
+                            and styling of a document written in a markup language such as HTML or XML.
+                        </p>
+                        <a href="#" class="btn-link">
+                            <span class="span">Explore More</span>
+    
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+                </li>
+                <li data-aos="fade-left">
+                    <div class="materials-card bg-gray">
+                        <div class="card-icon">
+                            <ion-icon name="logo-nodejs" aria-hidden="true"
+                                style="font-size: 3rem; color: white;"></ion-icon>
+                        </div>
+                        <h3 class="h3 card-title">JavaScript ( JS )</h3>
+                        <p class="card-text">
+                            JavaScript is the world's most popular programming language,
+                            and it is the programming language of the Web,
+                            and it is easy to learn,
+                            This tutorial will teach you JavaScript from basic to advanced.
+                        </p>
+                        <a href="#" class="btn-link">
+                            <span class="span">Explore More</span>
+    
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- 
+    - #STATS
+    -->
+    <section class="stats" aria-label="statistics">
+        <div class="container">
+            <div class="stats-content">
+                <h2 class="h2 section-title" data-aos="fade-right">Our Best Students Are all over the Worldwide Coverage</h2>
+                <p class="section-text" data-aos="fade-left">
+                    After a recent examination, it was found that the students who used the site were from all over the world
+                </p>
+                <p class="section-text" data-aos="fade-right">
+                    our site is the best and most secure site you can deal with,
+                     in addition to being the most researched site based on recent
+                      statistics about our students from all over the world.
+                </p>
+                <ul class="stats-list">
+                    <li data-aos="flip-right">
+                        <div class="stats-card bg-gray">
+                            <h3 class="h3 card-title">780k+</h3>
+                            <p class="card-text">
+                                People who Have Joined
+                            </p>
+                        </div>
+                    </li>
+                    <li data-aos="flip-up">
+                        <div class="stats-card bg-gray">
+                            <h3 class="h3 card-title">1M+</h3>
+                            <p class="card-text">
+                                People who Have Searched
+                            </p>
+                        </div>
+                    </li>
+                    <li data-aos="flip-left">
+                        <div class="stats-card bg-gray">
+                            <h3 class="h3 card-title">565k+</h3>
+                            <p class="card-text">
+                                People who Rated Us
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <figure class="stats-banner" data-aos="zoom-in">
+                <img src="./assets/images/stats-banner.png" width="797" height="454" alt="map" class="w-100">
+            </figure>
+        </div>
+    </section>
+
+
+    <!-- 
+    - #TEACHER
+    -->
+    <section id="teacher" class="teacher">
+        <div class="container">
+            <div class="title-wrapper">
+                <h2 class="h2 section-title text-center" data-aos="fade-up">Introduce with Our Famous Teacher</h2>
+            </div>
+            <ul class="teacher-list">
+                <li>
+                    <div class="teacher-card">
+                        <figure class="card-banner" data-aos="fade-right">
+                            <img src="./assets/images/teacher-1.png">
+                        </figure>
+                        <a href="#" data-aos="fade-up">
+                            <h3 class="card-title">Shaapir Prio</h3>
+                        </a>
+                        <p class="card-subtitle" data-aos="fade-up">Google</p>
+                        <ul class="card-social-list" data-aos="fade-up">
+                            <li>
+                                <a href="#" class="card-social-link">
+                                    <ion-icon name="logo-google"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="card-social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="card-social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="card-social-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="teacher-card">
+                        <figure class="card-banner" data-aos="fade-up">
+                            <img src="./assets/images/teacher-2.png">
+                        </figure>
+                        <a href="#" data-aos="fade-up">
+                            <h3 class="card-title">Sellina</h3>
+                        </a>
+                        <p class="card-subtitle" data-aos="fade-up">Amazon</p>
+                        <ul class="card-social-list" data-aos="fade-up">
+                            <li>
+                                <a href="#" class="card-social-link">
+                                    <ion-icon name="logo-google"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="card-social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="card-social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="card-social-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="teacher-card">
+                        <figure class="card-banner" data-aos="fade-left">
+                            <img src="./assets/images/teacher-3.png">
+                        </figure>
+                        <a href="#" data-aos="fade-up">
+                            <h3 class="card-title">John Smith</h3>
+                        </a>
+                        <p class="card-subtitle" data-aos="fade-up">Tesla</p>
+                        <ul class="card-social-list" data-aos="fade-up">
+                            <li>
+                                <a href="#" class="card-social-link">
+                                    <ion-icon name="logo-google"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="card-social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="card-social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="card-social-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="editor_tag"></div>
+    </section>
+
+
+    <!--   
+    - #CTA
+    -->
+    <section id="editor" class="section cta bg-gray" aria-label="call to action">
+        <div class="container">
+            <h2 class="h2 section-title text-center" data-aos="zoom-in">Code Editor</h2>
+            <p class="section-text text-center" data-aos="zoom-in">
+                With our online code editor, you can edit code and view the result in your browser
+            </p>
+            <a href="./Editor/index.html" class="btn btn-primary" data-aos="fade-right">
+                <span class="span">Edit Now</span>
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- 
+    - #INSTRUCTION
+    -->
+    <section class="section instruction" aria-label="instruction">
+        <div class="container">
+            <h2 class="h2 section-title text-center" data-aos="fade-up">Why Choose Us</h2>
+            <p class="section-text text-center" data-aos="fade-up">
+                High quality video, audio, live class and get industry accredited certification and advance through our
+                high-quality online courses
+            </p>
+            <ul class="grid-list">
+                <li data-aos="fade-right">
+                    <div class="instruction-card bg-gray">
+                        <div class="card-icon">
+                            <ion-icon name="person-sharp" style="font-size: 2.5rem; color: white;"></ion-icon>
+                        </div>
+                        <h3>Learn From Experts</h3>
+                        <p class="card-text">We collaborate with industry leaders who take care in delivering high-quallity
+                            education.<br><br>
+                        </p>
+                    </div>
+                </li>
+                <li data-aos="zoom-in">
+                    <div class="instruction-card bg-gray">
+                        <div class="card-icon">
+                            <ion-icon name="timer-sharp" style="font-size: 2.8rem; color: white;"></ion-icon>
+                        </div>
+                        <h3>Real Lifetime Support</h3>
+                        <p class="card-text">We guaranteee lifetime help. which you can leverage at any moment and from any
+                            place.<br>
+                            </br>
+                    </div>
+                </li>
+                <li  data-aos="zoom-in">
+                    <div class="instruction-card bg-gray">
+                        <div class="card-icon">
+                            <ion-icon name="bookmark-sharp" style="font-size: 2.5rem; color: white;"></ion-icon>
+                        </div>
+                        <h3>Professional Certification</h3>
+                        <p class="card-text">When you complete the course, you will get a certificate that is recognized.
+                        </p>
+                    </div>
+                </li>
+                <li data-aos="fade-left">
+                    <div class="instruction-card bg-gray">
+                        <div class="card-icon">
+                            <ion-icon name="videocam" style="font-size: 2.7rem; color: white;"></ion-icon>
+                        </div>
+                        <h3>High Quality Video</h3>
+                        <p class="card-text">High defination video is video of higher resolution and quality than match of
+                            industry level.<br><br>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- 
+    - #FEEDBACK
+    -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="h2 section-title text-center" data-aos="fade-up">
+                <h2>FAQ</h2>
+            </div>
+            <div class="faq_main">
+                <div class="accordian">
+                    <div class="accordian_item" data-aos="fade-right">
+                        <a href="#q1" class="link">
+                            <p>Who should take an Online Course?</p>
+                            <ion-icon class="down" name="caret-down-outline"></ion-icon>
+                            <ion-icon class="up" name="caret-up-outline"></ion-icon>
+                        </a>
+                        <div class="answer">
+                            <p>
+                                Students join our online courses for a variety of reasons and come from diverse
+                                backgrounds, professions, and age
+                                groups. With online courses, you can
+                                Advance your skill-set or begin a career change.
+                                Take the next step in your formal education.
+                                Ease the transition before entering a full-time academic program.
+                                Enjoy learning a new topic.
+                                Whatever the reason, our online courses are a flexible way of learning about the art
+                                world without disrupting your daily
+                                life.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordian_item" data-aos="fade-left">
+                        <a href="#q2" class="link">
+                            <p>Are there prerequisites or language requirements?</p>
+                            <ion-icon class="down" name="caret-down-outline"></ion-icon>
+                            <ion-icon class="up" name="caret-up-outline"></ion-icon>
+                        </a>
+                        <div class="answer">
+                            <p>
+                                There are no prerequisites. Our courses are open to students of all backgrounds who are
+                                18 years of age and older.
+                                All courses are conducted in English. Video lectures include English subtitles and the
+                                option to slow-down, pause, or
+                                replay lectures for better retention. Discussion boards are a critical component of each
+                                of our courses; therefore, we
+                                suggest students have a conversational knowledge of English when pursuing a Certificate
+                                of Completion. For any of the
+                                art writing courses, students need to be 100% proficient in written English.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordian_item" data-aos="fade-right">
+                        <a href="#q3" class="link">
+                            <p>Can I take more than one course at a time?</p>
+                            <ion-icon class="down" name="caret-down-outline"></ion-icon>
+                            <ion-icon class="up" name="caret-up-outline"></ion-icon>
+                        </a>
+                        <div class="answer">
+                            <p>
+                                If you are new to online learning, we recommend that you begin with one course. As our
+                                courses are offered frequently
+                                throughout the year, you can always come back and continue your studies with one or more
+                                topics.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordian_item" data-aos="fade-left">
+                        <a href="#q4" class="link">
+                            <p>My payment did not go through. What do I do?</p>
+                            <ion-icon class="down" name="caret-down-outline"></ion-icon>
+                            <ion-icon class="up" name="caret-up-outline"></ion-icon>
+                        </a>
+                        <div class="answer">
+                            <p>
+                                We apologize for this inconvenience. We encourage you to reach out to your financial
+                                institution as further permissions
+                                may be needed to complete the payment. You are also welcome to write to
+                                example@gmail.com for further
+                                guidance. Please wait a full 24 hours before trying again. A strong Internet connection
+                                and up-to-date browser are
+                                strongly recommended
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordian_item" id="#q5" data-aos="fade-right">
+                        <a href="#q5" class="link">
+                            <p>Can I get a refund if I am unable to attend my Online Course?</p>
+                            <ion-icon class="down" name="caret-down-outline"></ion-icon>
+                            <ion-icon class="up" name="caret-up-outline"></ion-icon>
+                        </a>
+                        <div class="answer">
+                            <p>
+                                In order to be granted a full tuition refund, you must cancel your registration by
+                                sending an email to
+                                example@gmail.com by 5:00 pm (your local time) 5 full business days before
+                                the course’s start date. Please
+                                note we are unable to reimburse for any currency conversion fees charged by your
+                                credit-card issuer.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordian_item" data-aos="fade-left">
+                        <a href="#q6" class="link">
+                            <p>How do I contact technical support during my course?</p>
+                            <ion-icon class="down" name="caret-down-outline"></ion-icon>
+                            <ion-icon class="up" name="caret-up-outline"></ion-icon>
+                        </a>
+                        <div class="answer">
+                            <p>
+                                For technical support, please email example@gmail.com, 09:00 – 22:00 GMT, Monday
+                                – Friday. We are
+                                ready to help!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="contac_tag"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 
+    - #CONTACT
+    -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="h2 section-title text-center" data-aos="fade-up">
+                <h2>Contact</h2>
+            </div>
+            <div class="contact_main" data-aos="zoom-in">
+                <div class="input">
+                    <form>
+                        <div class="name">
+                            <label for="username">Name</label>
+                            <input type="text" placeholder="Name" id="username">
+                        </div>
+                        <div class="email">
+                            <label for="useremail">Email</label>
+                            <input type="email" placeholder="Email" id="useremail">
+                        </div>
+                        <div class="textarea">
+                            <label for="usertext">Message</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                        </div>
+                        <div class="submit">
+                            <button class="btn btn-primary" type="button">Send</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="details">
+                    <div class="details_text">
+                        <h1>Get In Touch</h1>
+                        <p>20 students daily learn with e-learning. Subscribe for new updates.</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <p>+000 0000 000</p>
+                            <ion-icon name="call"></ion-icon>
+                        </li>
+                        <li>
+                            <p>example@gmail.com</p>
+                            <ion-icon name="mail"></ion-icon>
+                        </li>
+                        <li>
+                            <p>San Francisco, USA</p>
+                            <ion-icon name="location"></ion-icon>
+                        </li>
+                    </ul>
+                    <div class="social">
+                        <div class="box">
+                            <a href="#">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="#">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="#">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="#">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 
+    - #SUPSCRIBE
+    -->
+    <div class="subscribe">
+        <div class="text">
+            <h1>Subscribe</h1>
+            <p>To Our Email Newsletter And Expert Blog</p>
+        </div>
+        <div class="input">
+            <input type="email" placeholder="Emili@gmail.com" name="subscribe_email" class="input_email">
+            <button type="button" class="btn_withS">Submit</button>
+        </div>
+    </div>
+
+
+    <!-- 
+    - #FOOTER
+    -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="footer-brand">
+                        <a href="#" class="logo">
+                            <img src="./assets/images/logo.png" width="185" height="31">
+                        </a>
+                        <p class="footer-text">
+                            Get industry accredited certification and advance through our high-quality online courses
+                        </p>
+                        <ul class="social-list">
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-google"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-box">
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-link-title">Materials</p>
+                            </li>
+                            <li>
+                                <a href="./site_fix/index.html" class="footer-link">HTML</a>
+                            </li>
+                            <li>
+                                <a href="./site_fix/index.html" class="footer-link">CSS</a>
+                            </li>
+                            <li>
+                                <a href="./site_fix/index.html" class="footer-link">JavaScript</a>
+                            </li>
+                            <li>
+                                <a href="./site_fix/index.html" class="footer-link">PHP</a>
+                            </li>
+                        </ul>
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-link-title">Home</p>
+                            </li>
+                            <li>
+                                <a href="#materials" class="footer-link">Materials</a>
+                            </li>
+                            <li>
+                                <a href="#teacher" class="footer-link">Teacher</a>
+                            </li>
+                            <li>
+                                <a href="#editor_tag" class="footer-link">Editor</a>
+                            </li>
+                            <li>
+                                <a href="#contac_tag" class="footer-link">Contact</a>
+                            </li>
+                        </ul>
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-link-title">Help</p>
+                            </li>
+                            <li>
+                                <a href="./site_fix/index.html" class="footer-link">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="./site_fix/index.html" class="footer-link">Services</a>
+                            </li>
+                            <li>
+                                <a href="./site_fix/index.html" class="footer-link">Payment</a>
+                            </li>
+                            <li>
+                                <a href="./site_fix/index.html" class="footer-link">Privacy Policy</a>
+                            </li>
+                        </ul>
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-link-title">Contact</p>
+                            </li>
+                            <li class="contact-item">
+                                <span>Call : </span>
+                                <a href="tel:" class="contact-link">000 0000 000</a>
+                            </li>
+                            <li class="contact-item">
+                                <span>Email : </span>
+                                <a href="mailto:example@gmail.com" class="contact-link">example@gmail.com</a>
+                            </li>
+                            <li class="contact-item">
+                                <span>Address : </span>
+                                <a href="./site_fix/index.html" class="contact-link">
+                                    <address>San Francisco, USA</address>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; 2024 Codakt. All Right Reserved <br><span style="text-align: center;">by <a href="https://ahmedabdalalim.pages.dev/">3A</a></span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- 
+    - #GO TO TOP
+    -->
+
+    <a href="#top" class="go-top" data-go-top>
+        <ion-icon name="arrow-up"></ion-icon>
+    </a>
+
+
+    <!-- 
+    - #javaScript
+    -->
+    <script src="./assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./assets/js/script.js" defer></script>
+</body>
+<!-- * copyright 2024 3A -->
+</html>

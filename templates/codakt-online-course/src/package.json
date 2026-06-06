@@ -1,0 +1,7 @@
+{
+  "name": "codakt-online-course",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static online course landing page imported for frontend remixing.",
+  "license": "MIT"
+}

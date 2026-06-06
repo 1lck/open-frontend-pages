@@ -1,0 +1,198 @@
+/**
+ * copyright 2024 3A
+ */
+
+
+/*-----------------------------------*\
+  #CUSTOM PROPERTY
+\*-----------------------------------*/
+
+:root {
+  /**
+   * colors
+   */
+  --primarycolor: hsl(179, 93%, 44%);
+  --Backgroundcolor: hsl(216, 18%, 16%);
+  --silver-sand: hsl(240, 4%, 76%);
+  --blue: hsl(183, 100%, 35%);
+  --white: hsl(0, 0%, 100%);
+  --secondarycolor: hsl(217, 10%, 25%);
+  /**
+   * shadow
+   */
+  --shadow: 0px 0px 25px rgba(27, 232, 239, 0.159);
+  --shadow2: 0px 0px 25px rgba(27, 232, 239, 0.441);
+    /* font-size */
+    --fs-1: 24px;
+    --fs-2: 18px;
+    --fs-4: 16px;
+    --fs-7: 13px;
+    --fs-8: 11px;
+  /* font-weight */
+  --fw-500: 500;
+  /* font-family */
+  --ff-poppins: 'Poppins', sans-serif;
+}
+
+
+/*-----------------------------------*\
+  #RESET
+\*-----------------------------------*/
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a { text-decoration: none; }
+li { list-style: none; }
+img, ion-icon, a, button, time, span { display: block; }
+button {
+  font: inherit;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+html { font-family: var(--ff-poppins); }
+body { background: var(--Backgroundcolor); }
+
+/*-----------------------------------*\
+  #REUSED STYLE
+\*-----------------------------------*/
+.sidebar,
+section {
+  background: var(--secondarycolor);
+  border: 1px solid var(--secondarycolor);
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: var(--shadow);
+  z-index: 1;
+}
+section { display: none; }
+section.active {
+  display: block;
+  animation: fade 0.5s ease backwards;
+}
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.h2,
+.h3,
+.h4,
+.h5 {
+  color: var(--white);
+  text-transform: capitalize;
+}
+.h2 { font-size: var(--fs-1); }
+.h3 { font-size: var(--fs-2); }
+.h4 { font-size: var(--fs-4); }
+.h5 {
+  font-size: var(--fs-7);
+  font-weight: var(--fw-500);
+}
+.btn {
+  max-width: max-content;
+  padding: var(--padding-y, 13px) 28px;
+  font-family: var(--ff-poppins);
+  font-weight: var(--fw-500);
+  box-shadow: var(--shadow);
+  background-color: var(--primarycolor);
+  color: white;
+  margin-top: 5px;
+  border-radius: 5%;
+}
+.btn:hover{
+  background-color: var(--blue);
+}
+
+/*-----------------------------------*\
+  #STYLE
+\*-----------------------------------*/
+
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: var(--silver-sand);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 35px;
+  font-size: 20px;
+}
+#output{
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 10px;
+  background-color: var(--silver-sand);
+  border-radius: 8px;
+  margin-top: 35px;
+}
+
+/*-----------------------------------*\
+  #RESPONSIVE
+\*-----------------------------------*/
+
+/**
+ * responsive larger than 450px screen
+ */
+@media (min-width: 450px) {
+  .clients-item { min-width: calc(33.33% - 10px); }
+  .project-img,
+  .blog-banner-box { height: auto; }
+}
+
+/**
+ * responsive larger than 580px screen
+ */
+@media (min-width: 580px) {
+  body {
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+}
+
+/**
+ * responsive larger than 1024px screen
+ */
+@media (min-width: 1024px) {
+  body { margin-bottom: 60px; }
+  .body-content {
+    position: relative;
+    width: max-content;
+    margin: auto;
+  }
+}
+
+/**
+ * responsive larger than 1250px screen
+ */
+@media (min-width: 1250px) {
+  body::-webkit-scrollbar { width: 20px; }
+  body::-webkit-scrollbar-track { background: var(--smoky-black); }
+  body::-webkit-scrollbar-thumb {
+    border: 5px solid var(--smoky-black);
+    background: hsla(0, 0%, 100%, 0.1);
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
+                inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+  }
+  body::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
+  body::-webkit-scrollbar-button { height: 60px; }
+  .sidebar, section { width: auto; }
+  section { min-height: 100%; }
+  body {
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+  }
+  .body-content {
+    min-width: 75%;
+    width: 75%;
+    margin: 0;
+  }
+}

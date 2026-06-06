@@ -1,0 +1,15 @@
+{
+  "name": "Codakt",
+  "slug": "codakt-online-course",
+  "category": "education",
+  "audience": "b2c",
+  "source": "https://github.com/ahmed-abd-alalim/Codakt",
+  "repoPath": "templates/codakt-online-course/src",
+  "download": "/downloads/codakt-online-course.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["html", "css", "javascript"],
+  "tags": ["education", "online-course", "elearning", "landing-page"],
+  "preview": "https://ahmed-abd-alalim.github.io/Codakt/",
+  "screenshot": "/screenshots/codakt-online-course.png"
+}
