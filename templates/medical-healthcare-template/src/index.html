@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical - Healthcare</title>
+    <meta
+      name="description"
+      content="Professional healthcare solutions with expert doctors and modern facilities."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/query.css" />
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <!-- Skip to main content -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="index.html" class="main-nav__link" aria-current="page">MED</a>
+        <button
+          class="main-nav__hamburger-icon"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="main-navigation"
+        >
+          <svg
+            class="icon-menu"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+
+          <svg
+            class="icon-close"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+        <div class="main-nav__menu" id="nav-menu">
+          <a href="#features" class="main-nav__menu-item">Features</a>
+          <a href="#about" class="main-nav__menu-item">About</a>
+          <a href="#services" class="main-nav__menu-item">Services</a>
+          <a href="#team" class="main-nav__menu-item">Team</a>
+          <a href="#contact" class="main-nav__menu-item">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero">
+            <p class="hero__title">Medical</p>
+            <h1 class="hero__main-title">Healthcare Solutions</h1>
+            <p class="hero__description">
+              Peep at some distant orb has power to raise and purify our
+              thoughts like a strain of sacred music, or a noble.
+            </p>
+            <a href="#team" class="hero__btn">Find Doctors</a>
+          </div>
+          <img
+            src="assets/images/doctors-hero.svg"
+            alt="Healthcare professionals working together"
+            class="hero__image"
+          />
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features" id="features">
+        <div class="container">
+          <div class="features__item features__item--highlight">
+            <div class="features__title-container">
+              <h3 class="features__title">Opening Hours</h3>
+              <div class="features__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  width="28"
+                  height="28"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="features__info">
+              <div class="features__row">
+                <span class="features__label">Monday - Friday:</span>
+                <span class="features__value">9.00am - 11.00pm</span>
+              </div>
+              <div class="features__row">
+                <span class="features__label">Address:</span>
+                <address class="features__value">7563 St Vegas Place</address>
+              </div>
+            </div>
+          </div>
+
+          <div class="features__item">
+            <div class="features__title-container">
+              <h3 class="features__title">Request Service</h3>
+              <div class="features__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  width="28"
+                  height="28"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <p class="features__text">
+              Peep at some distant orb has power to raise and purify.
+            </p>
+            <a href="#" class="features__btn">Request</a>
+          </div>
+
+          <div class="features__item">
+            <div class="features__title-container">
+              <h3 class="features__title">Find Doctors</h3>
+              <div class="features__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  width="28"
+                  height="28"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 6.75a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.5 20.25a8.25 8.25 0 1 1 15 0v.75H4.5v-.75Z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <p class="features__text">
+              Peep at some distant orb has power to raise and purify.
+            </p>
+            <a href="#" class="features__btn">Doctors</a>
+          </div>
+
+          <div class="features__item">
+            <div class="features__title-container">
+              <h3 class="features__title">Our Locations</h3>
+              <div class="features__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  width="28"
+                  height="28"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 21.75c-4.97-4.84-8.25-8.08-8.25-11.25a8.25 8.25 0 1 1 16.5 0c0 3.17-3.28 6.41-8.25 11.25zM12 10.5a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <p class="features__text">
+              Peep at some distant orb has power to raise and purify.
+            </p>
+            <a href="#" class="features__btn">Locations</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="about">
+            <img
+              src="assets/images/about.jpg"
+              alt="Modern hospital interior with patients and staff"
+              class="about__image"
+              loading="lazy"
+            />
+            <div class="about__content">
+              <p class="about__title">About</p>
+              <h2 class="about__slogan">You Always Get Our Help</h2>
+              <p class="about__description">
+                Apparently we had reached a great height in the atmosphere, for
+                the sky was a dead black.
+              </p>
+              <p class="about__description">
+                Though the gravity still dragged at him, his muscles were making
+                great efforts to adjust. After the daily classes he no longer
+                collapsed immediately into bed.
+              </p>
+              <a href="#team" class="about__button">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="services" id="services">
+        <div class="container">
+          <div class="section-header">
+            <p class="subtitle">SERVICE</p>
+            <h2>Our Medical Services</h2>
+          </div>
+          <div class="services-grid">
+            <div class="service-item active" data-service="dental">
+              <img src="assets/images/icons/dental.svg" alt="Dental Care" />
+              <span>Dental</span>
+            </div>
+            <div class="service-item" data-service="medicine">
+              <img src="assets/images/icons/medicine.svg" alt="Medicine" />
+              <span>Medicine</span>
+            </div>
+            <div class="service-item" data-service="cardiology">
+              <img src="assets/images/icons/cardiology.svg" alt="Cardiology" />
+              <span>Cardiology</span>
+            </div>
+            <div class="service-item" data-service="eye">
+              <img src="assets/images/icons/eye.svg" alt="Eye Care" />
+              <span>Eye Care</span>
+            </div>
+            <div class="service-item" data-service="primary">
+              <img src="assets/images/icons/primary.svg" alt="Primary Care" />
+              <span>Primary Care</span>
+            </div>
+            <div class="service-item" data-service="orthopedic">
+              <img src="assets/images/icons/orthopedic.svg" alt="Orthopedic" />
+              <span>Orthopedic</span>
+            </div>
+          </div>
+          <div class="service-detail">
+            <img src="assets/images/services.jpg" alt="Dental Care Service" />
+            <div class="detail-content">
+              <h3>Dental Care Service</h3>
+              <p>
+                As I went on, still gaining velocity, the palpitation of night
+                and day merged into one continuous greyness sky took on a
+                wonderful.
+              </p>
+              <a href="#" class="detail-button">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Online Appointment Section -->
+      <section class="appointment-section">
+        <div class="container">
+          <div class="appointment">
+            <p class="appointment__title">Features</p>
+            <h2 class="appointment__header">Our Speciality</h2>
+            <p class="appointment__description">
+              Though the gravity still dragged at him, his muscles were making
+              great efforts to adjust.
+            </p>
+            <div class="online-appointment">
+              <div class="online-appointment__title">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  width="50"
+                  height="50"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21"
+                  />
+                </svg>
+                <h3>Online Appointment</h3>
+              </div>
+              <p class="online-appointment__description">
+                What looked like a small patch of purple grass, above five feet
+                square, was moving across the sand in their direction. When it
+                came near enough he perceived.
+              </p>
+              <a href="#contact" class="online-appointment__button"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Appointment Schedules -->
+      <section class="schedule">
+        <div class="container">
+          <img
+            src="assets/images/calendar.png"
+            alt="Appointment calendar with available slots"
+            class="schedule__img"
+            loading="lazy"
+          />
+          <div class="schedule__content">
+            <p class="schedule__title">Time Table</p>
+            <h2 class="schedule__header">Appointment Schedules</h2>
+            <p class="schedule__description">
+              Apparently we had reached a great height in the atmosphere, for
+              the sky was a dead black.
+            </p>
+            <p class="schedule__description">
+              Though the gravity still dragged at him, his muscles were making
+              great efforts to adjust. After the daily classes he no longer
+              collapsed immediately into bed.
+            </p>
+            <a href="#" class="schedule__button">Schedule</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team Section -->
+      <section class="team-section" id="team">
+        <div class="container">
+          <div class="team">
+            <p class="team__title">Team</p>
+            <h2 class="team__heading">Our Doctors</h2>
+            <div class="team__cards-container">
+              <div class="team__box">
+                <div class="team__img-wrapper">
+                  <img
+                    src="assets/images/doctor-1.jpg"
+                    alt="Dr. Florieke Krebber, Cardiology Specialist"
+                    class="team__img"
+                    loading="lazy"
+                  />
+                </div>
+                <p class="team__name">Florieke Krebber</p>
+                <p class="team__specialty">Cardiology</p>
+                <div class="team__socials">
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" aria-label="Instagram"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="team__box">
+                <div class="team__img-wrapper">
+                  <img
+                    src="assets/images/doctor-2.jpg"
+                    alt="Dr. Riley Cooper, Cardiology Specialist"
+                    class="team__img"
+                    loading="lazy"
+                  />
+                </div>
+                <p class="team__name">Riley Cooper</p>
+                <p class="team__specialty">Cardiology</p>
+                <div class="team__socials">
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" aria-label="Instagram"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="team__box">
+                <div class="team__img-wrapper">
+                  <img
+                    src="assets/images/doctor-3.jpg"
+                    alt="Dr. Sampson Totton, Cardiology Specialist"
+                    class="team__img"
+                    loading="lazy"
+                  />
+                </div>
+                <p class="team__name">Sampson Totton</p>
+                <p class="team__specialty">Cardiology</p>
+                <div class="team__socials">
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" aria-label="Instagram"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="team__button">See all</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats Section -->
+      <section class="stats-section">
+        <div class="container">
+          <div class="stats">
+            <div class="stats__item">
+              <div class="stats__icon">
+                <img
+                  src="assets/images/icons/medical.svg"
+                  alt="Medical icon"
+                  aria-hidden="true"
+                  loading="lazy"
+                />
+              </div>
+              <p class="stats__number">12</p>
+              <p class="stats__text">Years of Experience</p>
+            </div>
+            <div class="stats__item">
+              <div class="stats__icon">
+                <img
+                  src="assets/images/icons/doctor.svg"
+                  alt="Doctor icon"
+                  aria-hidden="true"
+                  loading="lazy"
+                />
+              </div>
+              <p class="stats__number">465</p>
+              <p class="stats__text">Medical Specialities</p>
+            </div>
+            <div class="stats__item">
+              <div class="stats__icon">
+                <img
+                  src="assets/images/icons/hospital.svg"
+                  alt="Hospital icon"
+                  aria-hidden="true"
+                  loading="lazy"
+                />
+              </div>
+              <p class="stats__number">740</p>
+              <p class="stats__text">Modern Rooms</p>
+            </div>
+            <div class="stats__item">
+              <div class="stats__icon">
+                <img
+                  src="assets/images/icons/ribbon.svg"
+                  alt=""
+                  aria-hidden="true"
+                  loading="lazy"
+                />
+              </div>
+              <p class="stats__number">5,309</p>
+              <p class="stats__text">Happy Patients</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="testimonial">
+        <div class="container">
+          <p class="testimonial__title">Testimonial</p>
+          <h2 class="testimonial__header">What Our Patients Say</h2>
+          <div class="testimonial__user-container">
+            <div class="testimonial__card">
+              <div class="testimonial__quote-icon">
+                <img
+                  src="assets/images/icons/quotation.svg"
+                  alt="Quotation mark"
+                  loading="lazy"
+                />
+              </div>
+              <p class="testimonial__text">
+                I shall see the face of Mars, anyhow, and that will be a rare
+                experience. It seems to me that a view of the heavenly bodies
+                through a fine telescope, as well as a tour round the world,
+                should form a part of a liberal education.
+              </p>
+              <div class="testimonial__author">
+                <img
+                  src="assets/images/user-1.jpg"
+                  alt="Ray Cooper"
+                  class="testimonial__avatar"
+                  loading="lazy"
+                />
+                <div>
+                  <p class="testimonial__name">Ray Cooper</p>
+                  <p class="testimonial__role">Driver</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial__card">
+              <div class="testimonial__quote-icon">
+                <img
+                  src="assets/images/icons/quotation.svg"
+                  alt="Quotation mark"
+                />
+              </div>
+              <p class="testimonial__text">
+                I shall see the face of Mars, anyhow, and that will be a rare
+                experience. It seems to me that a view of the heavenly bodies
+                through a fine telescope, as well as a tour round the world,
+                should form a part of a liberal education.
+              </p>
+              <div class="testimonial__author">
+                <img
+                  src="assets/images/user-2.jpg"
+                  alt="Gunther Ackner"
+                  class="testimonial__avatar"
+                  loading="lazy"
+                />
+                <div>
+                  <p class="testimonial__name">Gunther Ackner</p>
+                  <p class="testimonial__role">Office Manager</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <div class="contact">
+            <p class="contact__title">Contact Us</p>
+            <h2 class="contact__header">Send Us a Message</h2>
+            <form class="contact__form" id="contact-form" onsubmit="return false">
+              <input type="text" name="name" placeholder="Your name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Your message"
+                required
+              ></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div>© 2025 Your Company. All rights reserved.</div>
+        <div>
+          <a href="#">Privacy Policy</a> |
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+    <!-- Scroll To Top Button -->
+    <button class="scroll-to-top" aria-label="Scroll to top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 15l7-7 7 7"
+        />
+      </svg>
+    </button>
+  </body>
+</html>

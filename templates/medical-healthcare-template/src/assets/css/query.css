@@ -1,0 +1,200 @@
+/* ===== SMALL TABLETS (600px and up) ===== */
+@media (min-width: 37.5em) {
+  .service-item {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+  }
+  .service-item img {
+    width: 50px;
+    height: 50px;
+  }
+  .team__box {
+    padding: 1.6rem;
+  }
+  .schedule__img {
+    width: 50%;
+    padding: 2rem;
+  }
+}
+
+/* ===== MEDIUM TABLETS (768px and up) ===== */
+@media (min-width: 48em) {
+  html {
+    font-size: 70%;
+  }
+  .container {
+    max-width: 1200px;
+    padding: 0 2.4rem;
+  }
+
+  .main-nav__hamburger-icon {
+    display: none;
+  }
+  .main-nav__menu {
+    display: flex;
+    position: static;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    gap: 2rem;
+  }
+  .main-nav__menu-item {
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+  }
+
+  /* Hero */
+  .hero-section .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4.4rem;
+    padding: 4rem 2rem;
+    text-align: left;
+  }
+  .hero {
+    flex: 1;
+    text-align: left;
+  }
+  .hero__image {
+    flex: 1;
+    max-width: 45%;
+    order: 0;
+  }
+
+  /* About */
+  .about {
+    flex-direction: row;
+    gap: 3rem;
+    text-align: left;
+    padding: 4rem 2.4rem;
+  }
+  .about__image {
+    flex: 1;
+    max-width: 50%;
+  }
+
+  /* Services */
+  .services .container {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+  .service-detail {
+    grid-column: 2;
+    align-self: start;
+    order: 0;
+    margin-bottom: 0;
+  }
+
+  /* Schedule */
+  .schedule .container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    text-align: left;
+  }
+  .schedule__img {
+    max-width: 450px;
+    margin: 0;
+  }
+  .schedule__content {
+    text-align: left;
+    max-width: 500px;
+  }
+
+  /* Team */
+  .team__cards-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    max-width: 1000px;
+  }
+
+  /* Testimonials */
+  .testimonial__user-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    max-width: 1000px;
+  }
+}
+
+/* ===== LARGE TABLETS (1024px and up) ===== */
+@media (min-width: 64em) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .hero__main-title {
+    font-size: 4.2rem;
+  }
+  .hero__description {
+    font-size: 1.8rem;
+  }
+  .team__cards-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    max-width: 1000px;
+  }
+  .stats {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .testimonial__user-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    max-width: 1000px;
+  }
+  .features .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+}
+
+/* ===== DESKTOP (1200px and up) ===== */
+@media (min-width: 75em) {
+  html {
+    font-size: 80%;
+  }
+  .container {
+    max-width: 1400px;
+    padding: 0 3.2rem;
+  }
+  .hero__description {
+    max-width: 500px;
+  }
+  .features .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+}
+
+/* ===== ULTRA-WIDE (1600px and up) ===== */
+@media (min-width: 100em) {
+  .container {
+    max-width: 1800px;
+  }
+  .hero__main-title {
+    font-size: clamp(4rem, 5vw, 5rem);
+  }
+  .hero__description {
+    max-width: 700px;
+  }
+}
+
+/* ===== PRINT & ACCESSIBILITY ===== */
+@media print {
+  .main-nav__hamburger-icon,
+  .hero__btn,
+  .contact__form button {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

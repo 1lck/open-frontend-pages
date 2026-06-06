@@ -1,0 +1,15 @@
+{
+  "name": "Medical Healthcare Template",
+  "slug": "medical-healthcare-template",
+  "category": "healthcare",
+  "audience": "b2c",
+  "source": "https://github.com/HamzehEsmaeili/medical-template",
+  "repoPath": "templates/medical-healthcare-template/src",
+  "download": "/downloads/medical-healthcare-template.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["html", "css", "javascript"],
+  "tags": ["healthcare", "clinic", "medical", "appointment"],
+  "preview": "https://HamzehEsmaeili.github.io/medical-template/",
+  "screenshot": "/screenshots/medical-healthcare-template.png"
+}
