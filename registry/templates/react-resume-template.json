@@ -1,0 +1,15 @@
+{
+  "name": "React Resume Template",
+  "slug": "react-resume-template",
+  "category": "portfolio",
+  "audience": "b2c",
+  "source": "https://github.com/tbakerx/react-resume-template",
+  "repoPath": "templates/react-resume-template/src",
+  "download": "/downloads/react-resume-template.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["nextjs", "react", "typescript", "tailwind"],
+  "tags": ["resume", "portfolio", "personal", "responsive"],
+  "preview": "https://reactresume.com",
+  "screenshot": "/screenshots/react-resume-template.png"
+}
