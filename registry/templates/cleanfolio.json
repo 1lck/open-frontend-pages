@@ -1,0 +1,15 @@
+{
+  "name": "Cleanfolio",
+  "slug": "cleanfolio",
+  "category": "portfolio",
+  "audience": "b2c",
+  "source": "https://github.com/rjshkhr/cleanfolio",
+  "repoPath": "templates/cleanfolio/src",
+  "download": "/downloads/cleanfolio.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["react", "javascript", "css", "material-ui"],
+  "tags": ["portfolio", "personal", "resume", "responsive"],
+  "preview": "https://rjshkhr.github.io/cleanfolio/",
+  "screenshot": "/screenshots/cleanfolio.png"
+}
