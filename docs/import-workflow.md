@@ -101,3 +101,5 @@ npm run build
 ```
 
 Template-specific install and build checks are optional during import. Use them when the dependencies are already available or the template is small enough to verify cheaply.
+
+For recurring AI-driven imports, also follow [the automation workflow](automation-workflow.md).

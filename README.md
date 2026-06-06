@@ -48,6 +48,18 @@ Validate the registry:
 npm run validate:registry
 ```
 
+Check automation progress:
+
+```bash
+npm run automation:status
+```
+
+Run the full import validation suite:
+
+```bash
+npm run validate:all
+```
+
 ## Add a template candidate
 
 Create a JSON file in `registry/templates/`:
@@ -77,3 +89,5 @@ npm run validate:registry
 ```
 
 Before importing source code into `templates/`, read [the license policy](docs/license-policy.md).
+
+For recurring AI-assisted imports, use [the automation workflow](docs/automation-workflow.md).

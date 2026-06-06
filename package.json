@@ -14,6 +14,8 @@
     "typecheck": "tsc -p apps/web/tsconfig.json --noEmit",
     "validate:registry": "node scripts/validate-registry.mjs",
     "validate:template": "node scripts/validate-template.mjs",
+    "validate:all": "node scripts/validate-all.mjs",
+    "automation:status": "node scripts/automation-status.mjs",
     "package:template": "node scripts/package-template.mjs"
   },
   "dependencies": {

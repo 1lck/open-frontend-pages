@@ -1,0 +1,15 @@
+{
+  "name": "Shop Homepage",
+  "slug": "startbootstrap-shop-homepage",
+  "category": "ecommerce",
+  "audience": "b2c",
+  "source": "https://github.com/StartBootstrap/startbootstrap-shop-homepage",
+  "repoPath": "templates/startbootstrap-shop-homepage/src",
+  "download": "/downloads/startbootstrap-shop-homepage.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["html", "bootstrap", "sass", "pug"],
+  "tags": ["ecommerce", "storefront", "products", "responsive"],
+  "preview": "https://startbootstrap.github.io/startbootstrap-shop-homepage/",
+  "screenshot": "/screenshots/startbootstrap-shop-homepage.png"
+}
