@@ -1,0 +1,13 @@
+{
+  "name": "TailAdmin Next.js Dashboard",
+  "slug": "tailadmin-nextjs-dashboard",
+  "category": "dashboard",
+  "audience": "b2b",
+  "source": "https://github.com/TailAdmin/free-nextjs-admin-dashboard",
+  "license": "MIT",
+  "imported": false,
+  "tech": ["nextjs", "react", "tailwind"],
+  "tags": ["admin", "dashboard", "analytics", "settings"],
+  "preview": null,
+  "screenshot": null
+}

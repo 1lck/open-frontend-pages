@@ -1,0 +1,13 @@
+{
+  "name": "CoreUI React Admin Template",
+  "slug": "coreui-react-admin",
+  "category": "admin",
+  "audience": "b2b",
+  "source": "https://github.com/coreui/coreui-free-react-admin-template",
+  "license": "MIT",
+  "imported": false,
+  "tech": ["react", "bootstrap"],
+  "tags": ["admin", "dashboard", "tables", "forms"],
+  "preview": null,
+  "screenshot": null
+}

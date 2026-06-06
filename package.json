@@ -1,0 +1,27 @@
+{
+  "name": "open-frontend-pages",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A curated registry of open-source frontend pages and templates that are safe to preview, remix, and reuse.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev apps/web",
+    "build": "next build apps/web",
+    "start": "next start apps/web",
+    "lint": "npm run typecheck",
+    "typecheck": "tsc -p apps/web/tsconfig.json --noEmit",
+    "validate:registry": "node scripts/validate-registry.mjs"
+  },
+  "dependencies": {
+    "next": "^16.2.7",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^24.10.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3"
+  }
+}

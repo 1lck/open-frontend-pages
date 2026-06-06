@@ -1,0 +1,13 @@
+{
+  "name": "Cruip Open React Template",
+  "slug": "cruip-open-react",
+  "category": "landing",
+  "audience": "b2c",
+  "source": "https://github.com/cruip/open-react-template",
+  "license": "GPL-3.0",
+  "imported": false,
+  "tech": ["react", "tailwind"],
+  "tags": ["landing", "startup", "marketing", "saas"],
+  "preview": null,
+  "screenshot": null
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Commerce.js Next.js Demo Store",
+  "slug": "commercejs-nextjs-demo-store",
+  "category": "ecommerce",
+  "audience": "b2c",
+  "source": "https://github.com/chec/commercejs-nextjs-demo-store",
+  "license": "MIT",
+  "imported": false,
+  "tech": ["nextjs", "react"],
+  "tags": ["commerce", "product", "checkout", "storefront"],
+  "preview": null,
+  "screenshot": null
+}
