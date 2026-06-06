@@ -1,0 +1,15 @@
+{
+  "name": "CoreUI Vue Admin Template",
+  "slug": "coreui-vue-admin-template",
+  "category": "admin",
+  "audience": "b2b",
+  "source": "https://github.com/coreui/coreui-free-vue-admin-template",
+  "repoPath": null,
+  "download": null,
+  "license": "MIT",
+  "imported": false,
+  "tech": ["vue", "bootstrap", "coreui"],
+  "tags": ["admin", "dashboard", "vue", "bootstrap"],
+  "preview": "https://coreui.io/product/free-vue-admin-template/",
+  "screenshot": null
+}

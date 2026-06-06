@@ -1,0 +1,15 @@
+{
+  "name": "Next.js SaaS Starter",
+  "slug": "next-saas-starter",
+  "category": "saas",
+  "audience": "b2b",
+  "source": "https://github.com/nextjs/saas-starter",
+  "repoPath": null,
+  "download": null,
+  "license": "MIT",
+  "imported": false,
+  "tech": ["nextjs", "react", "shadcn", "postgres"],
+  "tags": ["saas", "pricing", "dashboard", "auth"],
+  "preview": "https://next-saas-start.vercel.app/",
+  "screenshot": null
+}

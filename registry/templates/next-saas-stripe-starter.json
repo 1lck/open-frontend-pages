@@ -1,0 +1,15 @@
+{
+  "name": "Next SaaS Stripe Starter",
+  "slug": "next-saas-stripe-starter",
+  "category": "saas",
+  "audience": "b2b",
+  "source": "https://github.com/mickasmt/next-saas-stripe-starter",
+  "repoPath": null,
+  "download": null,
+  "license": "MIT",
+  "imported": false,
+  "tech": ["nextjs", "react", "shadcn", "stripe"],
+  "tags": ["saas", "admin", "pricing", "auth"],
+  "preview": "https://next-saas-stripe-starter.vercel.app/",
+  "screenshot": null
+}

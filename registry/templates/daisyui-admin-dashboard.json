@@ -1,0 +1,15 @@
+{
+  "name": "DaisyUI Admin Dashboard Template",
+  "slug": "daisyui-admin-dashboard-template",
+  "category": "dashboard",
+  "audience": "b2b",
+  "source": "https://github.com/robbins23/daisyui-admin-dashboard-template",
+  "repoPath": null,
+  "download": null,
+  "license": "MIT",
+  "imported": false,
+  "tech": ["react", "tailwind", "daisyui"],
+  "tags": ["admin", "dashboard", "charts", "dark-mode"],
+  "preview": "https://tailwind-dashboard-template-dashwind.vercel.app/",
+  "screenshot": null
+}

@@ -1,0 +1,15 @@
+{
+  "name": "SaaS UI Next.js Landing Page",
+  "slug": "saas-ui-nextjs-landing-page",
+  "category": "landing",
+  "audience": "b2b",
+  "source": "https://github.com/saas-js/saas-ui-nextjs-landing-page",
+  "repoPath": null,
+  "download": null,
+  "license": "MIT",
+  "imported": false,
+  "tech": ["nextjs", "react", "chakra", "saas-ui"],
+  "tags": ["saas", "landing", "pricing", "faq"],
+  "preview": "https://saas-ui-nextjs-landing-page.netlify.app/",
+  "screenshot": null
+}
