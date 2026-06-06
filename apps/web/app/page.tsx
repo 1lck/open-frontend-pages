@@ -51,35 +51,57 @@ export default function Home() {
       </section>
 
       <section className="px-6 pb-16 sm:px-10 lg:px-16">
-        <div className="mx-auto max-w-7xl overflow-hidden border border-[var(--line)] bg-[var(--panel)]">
-          <div className="grid grid-cols-[1.2fr_0.7fr_0.7fr_0.8fr] border-b border-[var(--line)] px-5 py-3 text-sm font-medium text-[var(--muted)]">
-            <span>Name</span>
-            <span>Audience</span>
-            <span>License</span>
-            <span>Status</span>
-          </div>
+        <div className="mx-auto grid max-w-7xl gap-5 lg:grid-cols-2">
           {templates.map((template) => (
             <article
-              className="grid grid-cols-[1.2fr_0.7fr_0.7fr_0.8fr] items-start gap-4 border-b border-[var(--line)] px-5 py-5 last:border-b-0"
+              className="overflow-hidden border border-[var(--line)] bg-[var(--panel)]"
               key={template.slug}
             >
-              <div>
-                <h2 className="text-base font-semibold">{template.name}</h2>
-                <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
-                  {template.tech.join(" / ")} · {template.tags.join(", ")}
-                </p>
-                <a
-                  className="mt-3 inline-flex text-sm font-medium text-[var(--accent)]"
-                  href={template.source}
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Source repository
-                </a>
+              <div className="aspect-[16/10] border-b border-[var(--line)] bg-[#e8e3d8]">
+                {template.screenshot ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    alt={`${template.name} preview`}
+                    className="h-full w-full object-cover object-top"
+                    src={template.screenshot}
+                  />
+                ) : (
+                  <div className="flex h-full items-center justify-center px-8 text-center text-sm text-[var(--muted)]">
+                    Screenshot pending
+                  </div>
+                )}
               </div>
-              <span className="text-sm">{audienceLabels[template.audience]}</span>
-              <span className="text-sm">{template.license}</span>
-              <span className="text-sm">{template.imported ? "Imported" : "Candidate"}</span>
+              <div className="p-5">
+                <div className="flex flex-wrap items-center gap-2 text-xs font-medium uppercase tracking-[0.12em] text-[var(--muted)]">
+                  <span>{audienceLabels[template.audience]}</span>
+                  <span>·</span>
+                  <span>{template.license}</span>
+                  <span>·</span>
+                  <span>{template.imported ? "Imported" : "Candidate"}</span>
+                </div>
+                <h2 className="mt-4 text-xl font-semibold">{template.name}</h2>
+                <p className="mt-2 text-sm leading-6 text-[var(--muted)]">{template.tags.join(", ")}</p>
+                <div className="mt-5 flex flex-wrap gap-3">
+                  {template.preview ? (
+                    <a
+                      className="inline-flex border border-[var(--accent)] px-3 py-2 text-sm font-medium text-[var(--accent)]"
+                      href={template.preview}
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      Preview
+                    </a>
+                  ) : null}
+                  <a
+                    className="inline-flex border border-[var(--line)] px-3 py-2 text-sm font-medium"
+                    href={template.source}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Source
+                  </a>
+                </div>
+              </div>
             </article>
           ))}
         </div>
