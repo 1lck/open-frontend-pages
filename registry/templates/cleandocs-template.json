@@ -1,0 +1,15 @@
+{
+  "name": "CleanDocs Template",
+  "slug": "cleandocs-template",
+  "category": "docs",
+  "audience": "both",
+  "source": "https://github.com/lmas3009/cleandocs-template",
+  "repoPath": "templates/cleandocs-template/src",
+  "download": "/downloads/cleandocs-template.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["html", "tailwind", "javascript"],
+  "tags": ["documentation", "knowledge-base", "docs", "dark-mode"],
+  "preview": "https://cleandocs-template.netlify.app",
+  "screenshot": "/screenshots/cleandocs-template.png"
+}
