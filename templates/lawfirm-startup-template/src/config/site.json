@@ -1,0 +1,9 @@
+{
+  "name": "Sample Law Firm Startup Page",
+  "version": "1.0.0",
+  "phone": "(555) 555-5555",
+  "email": "contact@examplelawfirm.com",
+  "location": "Sample Office Location",
+  "type": "static-website",
+  "industry": "legal-services"
+}

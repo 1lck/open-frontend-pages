@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Sample Law Firm Startup Page</title>
+  <meta name="description" content="A professional sample startup website for a personal injury and criminal defense law firm." />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <div class="top-bar">
+    <div class="container top-bar__inner">
+      <span>Personal Injury & Criminal Defense</span>
+      <a href="#">(555) 555-5555</a>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="brand__name">Summit Justice Law</span>
+        <span class="brand__tagline">Sample Law Firm Startup</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" aria-label="Primary navigation">
+        <a href="#practice-areas">Practice Areas</a>
+        <a href="#about">About</a>
+        <a href="#process">Process</a>
+        <a href="#faq">FAQ</a>
+        <a class="button button--small" href="#contact">Free Consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Professional Legal Representation</p>
+          <h1>Sample startup page for a modern law firm.</h1>
+          <p class="hero__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button" href="#contact">Request a Free Consultation</a>
+            <a class="button button--outline" href="#">Call (555) 555-5555</a>
+          </div>
+
+          <div class="hero__highlights" aria-label="Firm highlights">
+            <div>
+              <strong>Focused</strong>
+              <span>Legal Services</span>
+            </div>
+            <div>
+              <strong>Modern</strong>
+              <span>Client Intake</span>
+            </div>
+            <div>
+              <strong>Clear</strong>
+              <span>Case Process</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="intake-card" id="contact">
+          <h2>Request a Consultation</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fill out the form below.</p>
+
+          <form class="contact-form" action="#" method="post">
+            <label>
+              Full Name
+              <input type="text" name="name" placeholder="Jane Doe" required />
+            </label>
+
+            <label>
+              Email Address
+              <input type="email" name="email" placeholder="jane@example.com" required />
+            </label>
+
+            <label>
+              Phone Number
+              <input type="tel" name="phone" placeholder="(555) 555-5555" required />
+            </label>
+
+            <label>
+              Case Type
+              <select name="case_type" required>
+                <option value="">Select an option</option>
+                <option>Personal Injury</option>
+                <option>Car Accident</option>
+                <option>Criminal Defense</option>
+                <option>DUI / DWI</option>
+                <option>Other</option>
+              </select>
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" placeholder="Lorem ipsum dolor sit amet..."></textarea>
+            </label>
+
+            <button class="button button--full" type="submit">Submit Request</button>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="practice-areas">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Practice Areas</p>
+          <h2>Legal service pages built for clarity and conversion.</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <article class="practice-card">
+            <span>01</span>
+            <h3>Personal Injury</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis.</p>
+          </article>
+
+          <article class="practice-card">
+            <span>02</span>
+            <h3>Car Accidents</h3>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor.</p>
+          </article>
+
+          <article class="practice-card">
+            <span>03</span>
+            <h3>Truck Accidents</h3>
+            <p>Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl.</p>
+          </article>
+
+          <article class="practice-card">
+            <span>04</span>
+            <h3>Criminal Defense</h3>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula.</p>
+          </article>
+
+          <article class="practice-card">
+            <span>05</span>
+            <h3>DUI / DWI</h3>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante.</p>
+          </article>
+
+          <article class="practice-card">
+            <span>06</span>
+            <h3>Drug Charges</h3>
+            <p>Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--light" id="about">
+      <div class="container split">
+        <div class="image-panel" role="img" aria-label="Professional law office placeholder"></div>
+
+        <div>
+          <p class="eyebrow">About the Firm</p>
+          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature">
+              <div class="feature__icon">✓</div>
+              <div>
+                <h3>Client-Focused Representation</h3>
+                <p>Designed as a modern sample startup page for personal injury and criminal defense law firms.</p>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature__icon">✓</div>
+              <div>
+                <h3>Clear Communication</h3>
+                <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.</p>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature__icon">✓</div>
+              <div>
+                <h3>Organized Case Process</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats__grid">
+        <div>
+          <strong>24/7</strong>
+          <span>Intake Access</span>
+        </div>
+        <div>
+          <strong>Free</strong>
+          <span>Initial Consultation</span>
+        </div>
+        <div>
+          <strong>Sample</strong>
+          <span>Startup Template</span>
+        </div>
+        <div>
+          <strong>(555)</strong>
+          <span>555-5555</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Our Process</p>
+          <h2>Simple steps for a professional legal website flow.</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <article>
+            <h3>1. Consultation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </article>
+          <article>
+            <h3>2. Review</h3>
+            <p>Curabitur blandit tempus porttitor. Integer posuere erat a ante.</p>
+          </article>
+          <article>
+            <h3>3. Strategy</h3>
+            <p>Vestibulum id ligula porta felis euismod semper.</p>
+          </article>
+          <article>
+            <h3>4. Resolution</h3>
+            <p>Maecenas faucibus mollis interdum. Donec sed odio dui.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--light">
+      <div class="container testimonial">
+        <blockquote>
+          “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.”
+        </blockquote>
+        <p>Replace this with a real client review, attorney quote, or firm mission statement.</p>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>Frequently asked questions.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>Do you offer free consultations?</summary>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui.</p>
+          </details>
+
+          <details>
+            <summary>Can this be customized for a real firm?</summary>
+            <p>Yes. Replace the placeholder copy, branding, colors, images, and contact details.</p>
+          </details>
+
+          <details>
+            <summary>Can this be rebuilt inside Wix?</summary>
+            <p>Yes. The sections are organized so they can be recreated in Wix using reusable page blocks.</p>
+          </details>
+
+          <details>
+            <summary>What phone number is used?</summary>
+            <p>The sample phone number is (555) 555-5555.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <div class="container">
+        <h2>Lorem ipsum dolor sit amet consectetur adipiscing elit.</h2>
+        <p>Contact a legal team prepared to move quickly, communicate clearly, and fight strategically.</p>
+        <a class="button" href="#contact">Schedule a Consultation</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Summit Justice Law</h3>
+        <p>Sample startup page for a modern personal injury and criminal defense law practice.</p>
+      </div>
+
+      <div>
+        <h4>Practice Areas</h4>
+        <ul>
+          <li>Personal Injury</li>
+          <li>Car Accidents</li>
+          <li>Criminal Defense</li>
+          <li>DUI / DWI</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#">(555) 555-5555</a></li>
+          <li><a href="#">contact@examplelawfirm.com</a></li>
+          <li>Sample Office Location</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Office Hours</h4>
+        <ul>
+          <li>Mon–Fri: 8:30 AM – 5:30 PM</li>
+          <li>Emergency inquiries accepted</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container disclaimer">
+      <p>
+        Attorney advertising. This website is for informational purposes only and does not create an attorney-client relationship.
+        Replace placeholder content with firm-approved legal language before launch.
+      </p>
+    </div>
+  </footer>
+
+  <a class="mobile-call" href="#">Call (555) 555-5555</a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
