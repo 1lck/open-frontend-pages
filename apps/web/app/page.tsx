@@ -64,7 +64,7 @@ export default function Home() {
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
                     alt={`${template.name} preview`}
-                    className="h-full w-full object-contain object-top"
+                    className="h-full w-full object-cover object-top"
                     src={template.screenshot}
                   />
                 ) : (

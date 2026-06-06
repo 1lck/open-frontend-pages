@@ -88,6 +88,16 @@ apps/web/public/downloads/<slug>.zip
 
 The zip should contain only that template directory, not the full repository.
 
+## Capture a preview screenshot
+
+Save the imported template preview as:
+
+```txt
+apps/web/public/screenshots/<slug>.png
+```
+
+Screenshots must be PNG files at `2880x1440` so they fill the registry card preview without side gutters or letterboxing.
+
 ## Validate before committing
 
 Run:

@@ -14,6 +14,22 @@ const allowedImportLicenses = new Set([
 ]);
 const requiredStringFields = ["name", "slug", "category", "audience", "source", "license"];
 const allowedAudiences = new Set(["b2b", "b2c", "both"]);
+const screenshotWidth = 2880;
+const screenshotHeight = 1440;
+
+function readPngSize(filePath) {
+  const buffer = fs.readFileSync(filePath);
+  const pngSignature = "89504e470d0a1a0a";
+
+  if (buffer.length < 24 || buffer.subarray(0, 8).toString("hex") !== pngSignature) {
+    return null;
+  }
+
+  return {
+    width: buffer.readUInt32BE(16),
+    height: buffer.readUInt32BE(20)
+  };
+}
 
 const files = fs.readdirSync(registryDir).filter((file) => file.endsWith(".json")).sort();
 const slugs = new Set();
@@ -80,6 +96,28 @@ for (const file of files) {
 
   if (entry.download && !fs.existsSync(path.join(publicDir, entry.download))) {
     errors.push(`${file}: download file does not exist at apps/web/public${entry.download}`);
+  }
+
+  if (entry.imported) {
+    if (typeof entry.screenshot !== "string" || entry.screenshot.trim() === "") {
+      errors.push(`${file}: imported templates must include "screenshot"`);
+    } else {
+      const screenshotPath = path.join(publicDir, entry.screenshot);
+
+      if (!fs.existsSync(screenshotPath)) {
+        errors.push(`${file}: screenshot file does not exist at apps/web/public${entry.screenshot}`);
+      } else {
+        const size = readPngSize(screenshotPath);
+
+        if (!size) {
+          errors.push(`${file}: screenshot must be a PNG file`);
+        } else if (size.width !== screenshotWidth || size.height !== screenshotHeight) {
+          errors.push(
+            `${file}: screenshot must be ${screenshotWidth}x${screenshotHeight}, got ${size.width}x${size.height}`
+          );
+        }
+      }
+    }
   }
 
   if (!entry.imported && entry.repoPath !== null) {
