@@ -1,0 +1,15 @@
+{
+  "name": "Modern Business",
+  "slug": "startbootstrap-modern-business",
+  "category": "business",
+  "audience": "both",
+  "source": "https://github.com/StartBootstrap/startbootstrap-modern-business",
+  "repoPath": "templates/startbootstrap-modern-business/src",
+  "download": "/downloads/startbootstrap-modern-business.zip",
+  "license": "MIT",
+  "imported": true,
+  "tech": ["html", "bootstrap", "sass", "pug"],
+  "tags": ["business", "pricing", "portfolio", "faq"],
+  "preview": "https://startbootstrap.github.io/startbootstrap-modern-business/",
+  "screenshot": "/screenshots/startbootstrap-modern-business.png"
+}
