@@ -4,7 +4,7 @@ This project can be expanded by a recurring AI job, but each run must keep the i
 
 ## Target
 
-Grow the imported template set to at least 50 reusable frontend pages.
+Grow the imported template set continuously. The first milestone is 50 reusable frontend pages, but the recurring import loop should keep expanding the registry after that until the automation is manually paused or the project policy changes.
 
 Useful scenario coverage:
 
@@ -47,13 +47,14 @@ Do not import GPL, AGPL, LGPL, no-license, personal-use-only, or redistribution-
 Use this prompt for a recurring Codex automation attached to this workspace:
 
 ```txt
-Continue expanding the open-frontend-pages repository toward 50 imported frontend templates. In this run, import at most one new permissively licensed GitHub template. Follow docs/automation-workflow.md, docs/import-workflow.md, and docs/license-policy.md. Preserve upstream license and attribution, remove backend/API/middleware/external service coupling, create screenshot and per-template zip, run npm run validate:all, deploy to Cloudflare Pages if checks pass, verify the deployed zip URL, then commit and push. If no safe source is found, add only a candidate registry entry and explain why it was not imported.
+Continue expanding the open-frontend-pages repository as a continuous AI-driven import loop. In this run, import at most one new permissively licensed GitHub template. Treat 50 imported templates as the first milestone, not a stopping point. Follow docs/automation-workflow.md, docs/import-workflow.md, and docs/license-policy.md. Preserve upstream license and attribution, remove backend/API/middleware/external service coupling, create screenshot and per-template zip, run npm run validate:all, deploy to Cloudflare Pages if checks pass, verify the deployed zip URL, then commit and push. If no safe source is found, add only a candidate registry entry and explain why it was not imported.
 ```
 
 ## Notes for long-running automation
 
 - Keep each commit scoped to one imported template or one workflow improvement.
 - Prefer adding scenario variety over importing many near-duplicates.
+- Keep each automation run small even when token budget is high; one imported template per run makes review, rollback, and deployed verification clear.
 - Leave skipped source projects out of `templates/`.
 - Record important manual judgments in the template `NOTICE.md`.
 - If validation fails, fix the issue in the same run or leave the work uncommitted with a clear summary.

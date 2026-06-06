@@ -2,7 +2,7 @@
   "name": "open-frontend-pages",
   "version": "0.1.0",
   "private": true,
-  "description": "A curated registry of open-source frontend pages and templates that are safe to preview, remix, and reuse.",
+  "description": "一个精选的开源前端页面与模板注册表，帮助你查找、预览、下载并安全复用可再分发的页面代码。",
   "license": "MIT",
   "scripts": {
     "dev": "next dev apps/web",

@@ -6,6 +6,11 @@ const audienceLabels = {
   both: "B2B + B2C"
 };
 
+const statusLabels = {
+  candidate: "候选",
+  imported: "已导入"
+};
+
 const repositoryBaseUrl = "https://github.com/1lck/open-frontend-pages/tree/main";
 
 export default function Home() {
@@ -22,19 +27,19 @@ export default function Home() {
               Open Frontend Pages
             </p>
             <h1 className="max-w-4xl text-5xl font-semibold leading-[1.02] sm:text-6xl lg:text-7xl">
-              Remixable frontend pages with licenses you can trace.
+              可追踪许可证的开源前端页面库。
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-[var(--muted)]">
-              A curated registry for open-source dashboards, landing pages, commerce
-              flows, auth screens, AI consoles, and product pages that can be previewed,
-              checked, and reused without guessing where the code came from.
+              精选可预览、可下载、可二次改造的开源前端模板，覆盖 Dashboard、
+              Landing Page、电商流程、认证页面、AI 控制台和产品页面。每个条目都会记录
+              上游来源、许可证、技术栈和导入状态，让复用代码前先把来源和授权说清楚。
             </p>
           </div>
           <div className="grid grid-cols-2 gap-px overflow-hidden border border-[var(--line)] bg-[var(--line)]">
-            <Stat label="Templates" value={stats.total} />
-            <Stat label="Imported" value={stats.imported} />
-            <Stat label="Categories" value={stats.categories} />
-            <Stat label="Licenses" value={stats.licenses} />
+            <Stat label="模板条目" value={stats.total} />
+            <Stat label="已导入" value={stats.imported} />
+            <Stat label="分类" value={stats.categories} />
+            <Stat label="许可证" value={stats.licenses} />
           </div>
         </div>
       </section>
@@ -79,7 +84,7 @@ export default function Home() {
                   <span>·</span>
                   <span>{template.license}</span>
                   <span>·</span>
-                  <span>{template.imported ? "Imported" : "Candidate"}</span>
+                  <span>{template.imported ? statusLabels.imported : statusLabels.candidate}</span>
                 </div>
                 <h2 className="mt-4 text-xl font-semibold">{template.name}</h2>
                 <p className="mt-2 text-sm leading-6 text-[var(--muted)]">{template.tags.join(", ")}</p>
@@ -91,7 +96,7 @@ export default function Home() {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      Preview
+                      预览
                     </a>
                   ) : null}
                   {template.repoPath ? (
@@ -101,7 +106,7 @@ export default function Home() {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      Code
+                      源码
                     </a>
                   ) : null}
                   {template.download ? (
@@ -110,7 +115,7 @@ export default function Home() {
                       download
                       href={template.download}
                     >
-                      Download
+                      下载
                     </a>
                   ) : null}
                   <a
@@ -119,7 +124,7 @@ export default function Home() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Upstream
+                    上游
                   </a>
                 </div>
               </div>

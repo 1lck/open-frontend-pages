@@ -15,6 +15,7 @@ const imported = entries.filter((entry) => entry.imported);
 const candidates = entries.filter((entry) => !entry.imported);
 const categories = [...new Set(entries.map((entry) => entry.category))].sort();
 const missingAssets = imported.filter((entry) => !entry.screenshot || !entry.download);
+const milestoneReached = imported.length >= targetImported;
 
 const blockedCandidates = candidates.filter((entry) => {
   const license = String(entry.license ?? "").toLowerCase();
@@ -24,6 +25,11 @@ const blockedCandidates = candidates.filter((entry) => {
 const status = {
   targetImported,
   remainingToTarget: Math.max(targetImported - imported.length, 0),
+  milestoneReached,
+  mode: "continuous",
+  nextMilestone: milestoneReached
+    ? Math.ceil((imported.length + 1) / 25) * 25
+    : targetImported,
   total: entries.length,
   imported: imported.length,
   candidates: candidates.length,
